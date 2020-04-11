@@ -1,0 +1,4 @@
+input WorkspaceInput {
+  name: String!
+  subDomain: String!
+}

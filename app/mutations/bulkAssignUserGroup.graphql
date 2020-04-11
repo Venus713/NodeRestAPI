@@ -1,0 +1,4 @@
+bulkAssignUserGroup(
+  id: [ID]!
+  groupId: ID!
+): String

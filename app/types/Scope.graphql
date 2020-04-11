@@ -1,0 +1,8 @@
+type Scope {
+  id: ID
+  name: String
+  description: String
+  resources: [Resource]
+  createdAt: Date
+  updatedAt: Date
+}

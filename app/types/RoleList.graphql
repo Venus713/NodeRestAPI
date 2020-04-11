@@ -1,0 +1,4 @@
+type RoleList {
+    count: Int
+    data: [Role]
+}

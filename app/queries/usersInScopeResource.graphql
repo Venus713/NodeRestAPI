@@ -1,0 +1,3 @@
+usersInScopeResource(
+  resources: [ScopeResource]!
+): UserList

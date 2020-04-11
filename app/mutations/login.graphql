@@ -1,0 +1,5 @@
+login(
+  emailAddress: String!
+  password: String!
+  subDomain: String!
+) : Login

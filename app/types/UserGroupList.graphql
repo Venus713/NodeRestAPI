@@ -1,0 +1,4 @@
+type UserGroupList {
+  count: Int
+  data: [UserGroup]
+}

@@ -1,0 +1,6 @@
+updateScope(
+    id: ID!
+    name: String
+    description: String
+    resources: [ResourceInput]
+): Scope

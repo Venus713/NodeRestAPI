@@ -1,0 +1,114 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: svc-auth
+spec:
+  selector:
+    matchLabels:
+      app: svc-auth
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: svc-auth
+    spec:
+      containers:
+        - name: svc-auth
+          image: 101399050792.dkr.ecr.eu-central-1.amazonaws.com/svc-auth:<VERSION>
+          env:
+            - name: DB_DIALECT
+              valueFrom:
+                secretKeyRef:
+                  key: DB_DIALECT
+                  name: svc-auth
+            - name: DB_HOST
+              valueFrom:
+                secretKeyRef:
+                  key: DB_HOST
+                  name: svc-auth
+            - name: DB_NAME
+              valueFrom:
+                secretKeyRef:
+                  key: DB_NAME
+                  name: svc-auth
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  key: DB_PASSWORD
+                  name: svc-auth
+            - name: DB_PORT
+              valueFrom:
+                secretKeyRef:
+                  key: DB_PORT
+                  name: svc-auth
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  key: DB_USER
+                  name: svc-auth
+            - name: DEFAULT_OWNER_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  key: DEFAULT_OWNER_PASSWORD
+                  name: svc-auth
+            - name: HOST
+              valueFrom:
+                secretKeyRef:
+                  key: HOST
+                  name: svc-auth
+            - name: JWT_EXPIRES_IN
+              valueFrom:
+                secretKeyRef:
+                  key: JWT_EXPIRES_IN
+                  name: svc-auth
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  key: JWT_SECRET
+                  name: svc-auth
+            - name: PORT
+              valueFrom:
+                secretKeyRef:
+                  key: PORT
+                  name: svc-auth
+            - name: LOGZIO_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  key: LOGZIO_TOKEN
+                  name: svc-auth
+            - name: LOGZIO_HOST
+              valueFrom:
+                secretKeyRef:
+                  key: LOGZIO_HOST
+                  name: svc-auth
+            - name: MANDRILL_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  key: MANDRILL_API_KEY
+                  name: svc-auth
+            - name: EMAIL_NO_REPLY
+              valueFrom:
+                secretKeyRef:
+                  key: EMAIL_NO_REPLY
+                  name: svc-auth
+            - name: WORKSPACE_SERVICE
+              valueFrom:
+                secretKeyRef:
+                  key: WORKSPACE_SERVICE
+                  name: svc-auth
+            - name: APP_INVITE_URL
+              valueFrom:
+                secretKeyRef:
+                  key: APP_INVITE_URL
+                  name: svc-auth
+            - name: DD_AGENT_HOST
+              valueFrom:
+                fieldRef:
+                  fieldPath: status.hostIP
+          ports:
+            - containerPort: 3000
+          resources:
+            limits:
+              cpu: 100m
+              memory: 128Mi

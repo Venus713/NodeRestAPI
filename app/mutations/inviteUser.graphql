@@ -1,0 +1,7 @@
+inviteUser(
+  firstName: String!
+  lastName: String
+  emailAddress: String!
+  userGroups: [String]
+  role: String!
+): User

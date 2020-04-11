@@ -1,0 +1,8 @@
+commonLabels:
+  app: svc-auth
+  viso.ai/type: service
+  viso.ai/name: auth
+
+resources:
+  - deployment.yaml
+  - service.yaml

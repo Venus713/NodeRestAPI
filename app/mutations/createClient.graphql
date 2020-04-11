@@ -1,0 +1,8 @@
+createClient(
+    firstName: String!
+    lastName: String
+    subDomain: String!
+    emailAddress: String!
+    userGroups: [String]
+    role: String!
+): User

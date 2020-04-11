@@ -1,0 +1,3 @@
+updateUsers(
+  data: [UserInput]
+) : UserList

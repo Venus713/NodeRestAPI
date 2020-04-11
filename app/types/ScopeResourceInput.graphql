@@ -1,0 +1,4 @@
+input ScopeResource {
+  id: String
+  type: String
+}

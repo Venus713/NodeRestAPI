@@ -1,0 +1,6 @@
+updateRole(
+  id: ID!
+  name: String
+  permissions: [String]
+  description: String
+): Role

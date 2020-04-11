@@ -1,0 +1,8 @@
+# docker-compose.override.yml
+version: "2.1"
+services:
+  auth:
+    env_file: .env
+    volumes:
+      - "./:/app"
+      - "/app/node_modules"

@@ -1,0 +1,19 @@
+type UserGroup {
+  id: ID
+  name: String
+  class: UserGroupClass
+  type: UserGroupType
+  description: String
+  createdAt: Date
+  updatedAt: Date
+  usersCount: Int
+}
+
+enum UserGroupClass {
+  CUSTOM
+}
+
+enum UserGroupType {
+  STATIC
+  DYNAMIC
+}

@@ -1,0 +1,6 @@
+createUserGroup(
+  name: String!
+  class: UserGroupClass
+  type: UserGroupType
+  description: String
+): UserGroup

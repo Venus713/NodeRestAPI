@@ -1,0 +1,10 @@
+type Role {
+  id: String
+  name: String
+  description: String
+  permissions: [String]
+  createdAt: Date
+  updatedAt: Date
+  usersCount: Int
+  createdBy: String
+}

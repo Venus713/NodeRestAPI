@@ -1,0 +1,12 @@
+input UserInput {
+  id: ID
+  firstName: String!
+  lastName: String
+  emailAddress: String!
+  userGroups: [String]
+  phoneNumber: String
+  address: String
+  tags: [String]
+  language: String
+  role: String!
+}

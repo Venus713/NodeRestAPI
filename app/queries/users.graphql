@@ -1,0 +1,10 @@
+users (
+  id: [ID]
+  role: ID
+  firstName: String
+  lastName: String
+  group: ID
+  limit: Int = 25
+  offset: Int = 0
+  sort: [Sort]
+) : UserList

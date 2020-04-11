@@ -1,0 +1,15 @@
+updateUser(
+  id: String
+  internalId: String
+  firstName: String
+  lastName: String
+  emailAddress: String
+  status: UserStatus
+  userGroups: [String]
+  scopes: [String]
+  role: String
+  language: String
+  phoneNumber: String
+  address: String
+  tags: [String]
+) : User

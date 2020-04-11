@@ -1,0 +1,5 @@
+createScope(
+    name: String!
+    description: String
+    resources: [ResourceInput]
+): Scope

@@ -1,0 +1,9 @@
+type Resource {
+  id: ID
+  type: ResourceType
+}
+
+enum ResourceType {
+  UserGroup
+  DeviceGroup
+}

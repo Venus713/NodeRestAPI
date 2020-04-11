@@ -1,0 +1,4 @@
+type UserList {
+  count: Int
+  data: [User]
+}

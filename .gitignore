@@ -1,0 +1,11 @@
+node_modules
+.env
+.idea
+test.sh
+package-lock.json
+*.sh___jb_tmp___
+/package-lock.json
+.vscode
+user-list.json
+run-docker.sh
+postgres

@@ -1,0 +1,35 @@
+type User {
+  id: ID
+  internalId: String
+  firstName: String
+  lastName: String
+  emailAddress: String
+  phoneNumber: String
+  address: String
+  tags: [String]
+  status: UserStatus
+  role: Role
+  userGroups: [String]
+  invitedBy: String
+  invitedByLink: InvitedBy
+  createdAt: Date
+  lastLogin: Date
+  updatedAt: Date
+  scopes: [String]
+  scopesLink: [Scope]
+  language: String
+  isOwner: Boolean
+  workspaceId: String
+}
+
+enum UserStatus {
+  INVITED
+  ACTIVE
+  INACTIVE
+}
+
+type InvitedBy {
+  id: ID
+  firstName: String
+  lastName: String
+}

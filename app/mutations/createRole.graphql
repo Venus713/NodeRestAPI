@@ -1,0 +1,6 @@
+createRole(
+  name: String!
+  permissions: [String]!
+  description: String
+): Role
+

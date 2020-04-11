@@ -1,0 +1,2475 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @hapi/joi
+20 silly mapToRegistry name @hapi/joi
+21 silly mapToRegistry scope (from package name) @hapi
+22 verbose mapToRegistry no registry URL found in name for scope @hapi
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/@hapi%2fjoi
+26 silly fetchNamedPackageData apollo-server-express
+27 silly mapToRegistry name apollo-server-express
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/apollo-server-express
+31 silly fetchNamedPackageData bcrypt
+32 silly mapToRegistry name bcrypt
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+36 silly fetchNamedPackageData cors
+37 silly mapToRegistry name cors
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry uri https://registry.npmjs.org/cors
+41 silly fetchNamedPackageData dd-trace
+42 silly mapToRegistry name dd-trace
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/dd-trace
+46 silly fetchNamedPackageData dotenv
+47 silly mapToRegistry name dotenv
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/dotenv
+51 silly fetchNamedPackageData express
+52 silly mapToRegistry name express
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/express
+56 silly fetchNamedPackageData express-graphql
+57 silly mapToRegistry name express-graphql
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/express-graphql
+61 silly fetchNamedPackageData graphql
+62 silly mapToRegistry name graphql
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/graphql
+66 silly fetchNamedPackageData graphql-fields
+67 silly mapToRegistry name graphql-fields
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/graphql-fields
+71 silly fetchNamedPackageData graphql-request
+72 silly mapToRegistry name graphql-request
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/graphql-request
+76 silly fetchNamedPackageData jsonwebtoken
+77 silly mapToRegistry name jsonwebtoken
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+81 silly fetchNamedPackageData lodash
+82 silly mapToRegistry name lodash
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/lodash
+86 silly fetchNamedPackageData mandrill-api
+87 silly mapToRegistry name mandrill-api
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/mandrill-api
+91 silly fetchNamedPackageData merge-graphql-schemas
+92 silly mapToRegistry name merge-graphql-schemas
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/merge-graphql-schemas
+96 silly fetchNamedPackageData mongoose
+97 silly mapToRegistry name mongoose
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+101 silly fetchNamedPackageData nodemailer
+102 silly mapToRegistry name nodemailer
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry uri https://registry.npmjs.org/nodemailer
+106 silly fetchNamedPackageData nodemailer-mandrill-transport
+107 silly mapToRegistry name nodemailer-mandrill-transport
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/nodemailer-mandrill-transport
+111 silly fetchNamedPackageData pg
+112 silly mapToRegistry name pg
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry uri https://registry.npmjs.org/pg
+116 silly fetchNamedPackageData proj4
+117 silly mapToRegistry name proj4
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry uri https://registry.npmjs.org/proj4
+121 silly fetchNamedPackageData request
+122 silly mapToRegistry name request
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry uri https://registry.npmjs.org/request
+126 silly fetchNamedPackageData request-promise-native
+127 silly mapToRegistry name request-promise-native
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/request-promise-native
+131 silly fetchNamedPackageData sequelize
+132 silly mapToRegistry name sequelize
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npmjs.org/
+135 silly mapToRegistry uri https://registry.npmjs.org/sequelize
+136 silly fetchNamedPackageData sequelize-cli
+137 silly mapToRegistry name sequelize-cli
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry uri https://registry.npmjs.org/sequelize-cli
+141 silly fetchNamedPackageData uuid
+142 silly mapToRegistry name uuid
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry uri https://registry.npmjs.org/uuid
+146 silly fetchOtherPackageData lib-core@git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7
+147 silly cache add args [ 'lib-core@git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7',
+147 silly cache add   null ]
+148 verbose cache add spec lib-core@git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7
+149 silly cache add parsed spec Result {
+149 silly cache add   raw: 'lib-core@git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7',
+149 silly cache add   scope: null,
+149 silly cache add   name: 'lib-core',
+149 silly cache add   rawSpec: 'git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7',
+149 silly cache add   spec: 'git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7',
+149 silly cache add   type: 'hosted',
+149 silly cache add   hosted:
+149 silly cache add    { type: 'gitlab',
+149 silly cache add      ssh: 'git@gitlab.com:TopKamera/lib-core.git#v1.5.7',
+149 silly cache add      sshUrl: 'git+ssh://git@gitlab.com/TopKamera/lib-core.git#v1.5.7',
+149 silly cache add      httpsUrl: 'git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7',
+149 silly cache add      gitUrl: undefined,
+149 silly cache add      shortcut: 'gitlab:TopKamera/lib-core#v1.5.7',
+149 silly cache add      directUrl: 'https://gitlab.com/TopKamera/lib-core/raw/v1.5.7/package.json' } }
+150 verbose addRemoteGit caching git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7
+151 verbose addRemoteGit git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7 is a repository hosted by gitlab
+152 silly tryClone cloning git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7 via git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7
+153 verbose tryClone git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c not in flight; caching
+154 verbose request uri https://registry.npmjs.org/@hapi%2fjoi
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 6:18:50 PM
+157 verbose request using bearer token for auth
+158 verbose request id 9ff0948f98297247
+159 verbose etag W/"1a5aa04767cedb2686582a483f5475e2"
+160 verbose lastModified Mon, 20 Jan 2020 00:02:35 GMT
+161 http request GET https://registry.npmjs.org/@hapi%2fjoi
+162 verbose request uri https://registry.npmjs.org/apollo-server-express
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 6:18:50 PM
+165 verbose request using bearer token for auth
+166 verbose etag W/"3a72ac3f0f7e5d8019418ccc96c285c4"
+167 verbose lastModified Wed, 11 Mar 2020 12:22:18 GMT
+168 http request GET https://registry.npmjs.org/apollo-server-express
+169 verbose request uri https://registry.npmjs.org/dotenv
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 6:18:50 PM
+172 verbose request using bearer token for auth
+173 verbose etag W/"eb436f22633dd89c882317c4b26f3166"
+174 verbose lastModified Fri, 21 Feb 2020 20:38:27 GMT
+175 http request GET https://registry.npmjs.org/dotenv
+176 verbose request uri https://registry.npmjs.org/graphql
+177 verbose request no auth needed
+178 info attempt registry request try #1 at 6:18:50 PM
+179 verbose request using bearer token for auth
+180 verbose etag W/"c761c824fbe9a2ca7f2ac5f06a560920"
+181 verbose lastModified Thu, 02 Apr 2020 15:14:28 GMT
+182 http request GET https://registry.npmjs.org/graphql
+183 verbose request uri https://registry.npmjs.org/dd-trace
+184 verbose request no auth needed
+185 info attempt registry request try #1 at 6:18:50 PM
+186 verbose request using bearer token for auth
+187 verbose etag W/"91b449227cd98dbe383218b12072accf"
+188 verbose lastModified Thu, 12 Mar 2020 18:22:56 GMT
+189 http request GET https://registry.npmjs.org/dd-trace
+190 verbose request uri https://registry.npmjs.org/express-graphql
+191 verbose request no auth needed
+192 info attempt registry request try #1 at 6:18:50 PM
+193 verbose request using bearer token for auth
+194 verbose etag W/"718757dbd8839dd3c92179b564d81a68"
+195 verbose lastModified Mon, 15 Jul 2019 13:16:24 GMT
+196 http request GET https://registry.npmjs.org/express-graphql
+197 verbose request uri https://registry.npmjs.org/bcrypt
+198 verbose request no auth needed
+199 info attempt registry request try #1 at 6:18:50 PM
+200 verbose request using bearer token for auth
+201 verbose etag W/"834568389032c2e093f374cb001bf46c"
+202 verbose lastModified Mon, 02 Mar 2020 16:23:45 GMT
+203 http request GET https://registry.npmjs.org/bcrypt
+204 verbose request uri https://registry.npmjs.org/cors
+205 verbose request no auth needed
+206 info attempt registry request try #1 at 6:18:50 PM
+207 verbose request using bearer token for auth
+208 verbose etag W/"767c12bdc7bec542e86f096187e83911"
+209 verbose lastModified Fri, 29 Nov 2019 09:32:44 GMT
+210 http request GET https://registry.npmjs.org/cors
+211 verbose request uri https://registry.npmjs.org/express
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 6:18:50 PM
+214 verbose request using bearer token for auth
+215 verbose etag W/"f0f2462b251c2390444c2cc0515e3c3b"
+216 verbose lastModified Thu, 27 Feb 2020 05:39:24 GMT
+217 http request GET https://registry.npmjs.org/express
+218 verbose request uri https://registry.npmjs.org/mandrill-api
+219 verbose request no auth needed
+220 info attempt registry request try #1 at 6:18:50 PM
+221 verbose request using bearer token for auth
+222 verbose etag W/"86978f40bc9f498ae3ac5c655fa88e3c"
+223 verbose lastModified Sun, 27 May 2018 07:21:58 GMT
+224 http request GET https://registry.npmjs.org/mandrill-api
+225 verbose request uri https://registry.npmjs.org/graphql-fields
+226 verbose request no auth needed
+227 info attempt registry request try #1 at 6:18:50 PM
+228 verbose request using bearer token for auth
+229 verbose etag W/"6db2e5a1ed915c316bef14ed415415d5"
+230 verbose lastModified Tue, 05 Mar 2019 01:35:07 GMT
+231 http request GET https://registry.npmjs.org/graphql-fields
+232 verbose request uri https://registry.npmjs.org/nodemailer
+233 verbose request no auth needed
+234 info attempt registry request try #1 at 6:18:50 PM
+235 verbose request using bearer token for auth
+236 verbose etag W/"11db85fb64157dfef0cf88a5b03293ab"
+237 verbose lastModified Tue, 10 Mar 2020 19:11:41 GMT
+238 http request GET https://registry.npmjs.org/nodemailer
+239 verbose request uri https://registry.npmjs.org/nodemailer-mandrill-transport
+240 verbose request no auth needed
+241 info attempt registry request try #1 at 6:18:50 PM
+242 verbose request using bearer token for auth
+243 verbose etag W/"8d9ac893068f556b068f1f5fdbdab9b1"
+244 verbose lastModified Sun, 27 May 2018 10:27:58 GMT
+245 http request GET https://registry.npmjs.org/nodemailer-mandrill-transport
+246 verbose request uri https://registry.npmjs.org/pg
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 6:18:50 PM
+249 verbose request using bearer token for auth
+250 verbose etag W/"9782111f4ad7057694143880185e8557"
+251 verbose lastModified Thu, 20 Feb 2020 16:34:52 GMT
+252 http request GET https://registry.npmjs.org/pg
+253 verbose request uri https://registry.npmjs.org/proj4
+254 verbose request no auth needed
+255 info attempt registry request try #1 at 6:18:50 PM
+256 verbose request using bearer token for auth
+257 verbose etag W/"cebe1654f93638517357768f5690864f"
+258 verbose lastModified Sat, 16 Nov 2019 07:45:43 GMT
+259 http request GET https://registry.npmjs.org/proj4
+260 verbose request uri https://registry.npmjs.org/request
+261 verbose request no auth needed
+262 info attempt registry request try #1 at 6:18:50 PM
+263 verbose request using bearer token for auth
+264 verbose etag W/"85539e7af42cc385fe7ae826760bc1db"
+265 verbose lastModified Fri, 21 Feb 2020 20:39:13 GMT
+266 http request GET https://registry.npmjs.org/request
+267 verbose request uri https://registry.npmjs.org/jsonwebtoken
+268 verbose request no auth needed
+269 info attempt registry request try #1 at 6:18:50 PM
+270 verbose request using bearer token for auth
+271 verbose etag W/"01c5940f8157b53f3af88d2821c09ccd"
+272 verbose lastModified Sat, 21 Sep 2019 18:44:15 GMT
+273 http request GET https://registry.npmjs.org/jsonwebtoken
+274 verbose request uri https://registry.npmjs.org/request-promise-native
+275 verbose request no auth needed
+276 info attempt registry request try #1 at 6:18:50 PM
+277 verbose request using bearer token for auth
+278 verbose etag W/"2a11ded91efc0668ac15bba903f8b747"
+279 verbose lastModified Mon, 04 Nov 2019 01:07:50 GMT
+280 http request GET https://registry.npmjs.org/request-promise-native
+281 verbose request uri https://registry.npmjs.org/lodash
+282 verbose request no auth needed
+283 info attempt registry request try #1 at 6:18:50 PM
+284 verbose request using bearer token for auth
+285 verbose etag W/"d90cfe8c201fe1cfa3e6cefe3a2f5d0b"
+286 verbose lastModified Mon, 02 Mar 2020 17:00:03 GMT
+287 http request GET https://registry.npmjs.org/lodash
+288 verbose request uri https://registry.npmjs.org/sequelize-cli
+289 verbose request no auth needed
+290 info attempt registry request try #1 at 6:18:50 PM
+291 verbose request using bearer token for auth
+292 verbose etag W/"148eae445b35ab29347a79ced533d36e"
+293 verbose lastModified Sat, 31 Aug 2019 11:44:30 GMT
+294 http request GET https://registry.npmjs.org/sequelize-cli
+295 verbose request uri https://registry.npmjs.org/merge-graphql-schemas
+296 verbose request no auth needed
+297 info attempt registry request try #1 at 6:18:50 PM
+298 verbose request using bearer token for auth
+299 verbose etag W/"371a88ee1e252d678ff47bd86508c856"
+300 verbose lastModified Tue, 11 Feb 2020 11:29:21 GMT
+301 http request GET https://registry.npmjs.org/merge-graphql-schemas
+302 verbose request uri https://registry.npmjs.org/uuid
+303 verbose request no auth needed
+304 info attempt registry request try #1 at 6:18:50 PM
+305 verbose request using bearer token for auth
+306 verbose etag W/"7d50068c2c23c44597a79206430be538"
+307 verbose lastModified Wed, 04 Mar 2020 12:49:04 GMT
+308 http request GET https://registry.npmjs.org/uuid
+309 verbose request uri https://registry.npmjs.org/sequelize
+310 verbose request no auth needed
+311 info attempt registry request try #1 at 6:18:50 PM
+312 verbose request using bearer token for auth
+313 verbose etag W/"5c69ff6d7b0a4083962c546655906709"
+314 verbose lastModified Fri, 21 Feb 2020 04:58:54 GMT
+315 http request GET https://registry.npmjs.org/sequelize
+316 http 304 https://registry.npmjs.org/dotenv
+317 verbose headers { date: 'Sat, 11 Apr 2020 15:18:51 GMT',
+317 verbose headers   connection: 'keep-alive',
+317 verbose headers   'set-cookie':
+317 verbose headers    [ '__cfduid=d69e68dd27a18361f04a944ba81ebc7bd1586618331; expires=Mon, 11-May-20 15:18:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+317 verbose headers   'cf-ray': '5825aebd6cc89340-SJC',
+317 verbose headers   age: '3790',
+317 verbose headers   'cache-control': 'public, max-age=300',
+317 verbose headers   etag: '"eb436f22633dd89c882317c4b26f3166"',
+317 verbose headers   'last-modified': 'Fri, 21 Feb 2020 20:38:27 GMT',
+317 verbose headers   vary: 'Accept-Encoding',
+317 verbose headers   'cf-cache-status': 'HIT',
+317 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+317 verbose headers   server: 'cloudflare' }
+318 silly get cb [ 304,
+318 silly get   { date: 'Sat, 11 Apr 2020 15:18:51 GMT',
+318 silly get     connection: 'keep-alive',
+318 silly get     'set-cookie':
+318 silly get      [ '__cfduid=d69e68dd27a18361f04a944ba81ebc7bd1586618331; expires=Mon, 11-May-20 15:18:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+318 silly get     'cf-ray': '5825aebd6cc89340-SJC',
+318 silly get     age: '3790',
+318 silly get     'cache-control': 'public, max-age=300',
+318 silly get     etag: '"eb436f22633dd89c882317c4b26f3166"',
+318 silly get     'last-modified': 'Fri, 21 Feb 2020 20:38:27 GMT',
+318 silly get     vary: 'Accept-Encoding',
+318 silly get     'cf-cache-status': 'HIT',
+318 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+318 silly get     server: 'cloudflare' } ]
+319 verbose etag https://registry.npmjs.org/dotenv from cache
+320 verbose get saving dotenv to /home/userstar713/.npm/registry.npmjs.org/dotenv/.cache.json
+321 verbose request uri https://registry.npmjs.org/graphql-request
+322 verbose request no auth needed
+323 info attempt registry request try #1 at 6:18:52 PM
+324 verbose request using bearer token for auth
+325 verbose etag W/"043f1412f813674c7a960013849c8af5"
+326 verbose lastModified Thu, 04 Apr 2019 04:44:50 GMT
+327 http request GET https://registry.npmjs.org/graphql-request
+328 verbose request uri https://registry.npmjs.org/mongoose
+329 verbose request no auth needed
+330 info attempt registry request try #1 at 6:18:52 PM
+331 verbose request using bearer token for auth
+332 verbose etag W/"2dd4d2b05b5b2f28f4c7250c3805cdc4"
+333 verbose lastModified Mon, 09 Mar 2020 19:55:56 GMT
+334 http request GET https://registry.npmjs.org/mongoose
+335 http 304 https://registry.npmjs.org/express-graphql
+336 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+336 verbose headers   connection: 'keep-alive',
+336 verbose headers   'set-cookie':
+336 verbose headers    [ '__cfduid=dfa8a914ad7c63557e5ba54b6e128577a1586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+336 verbose headers   'cf-ray': '5825aebf0c0ced0f-SJC',
+336 verbose headers   age: '3688',
+336 verbose headers   'cache-control': 'public, max-age=300',
+336 verbose headers   etag: '"718757dbd8839dd3c92179b564d81a68"',
+336 verbose headers   'last-modified': 'Mon, 15 Jul 2019 13:16:24 GMT',
+336 verbose headers   vary: 'Accept-Encoding',
+336 verbose headers   'cf-cache-status': 'HIT',
+336 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+336 verbose headers   server: 'cloudflare' }
+337 silly get cb [ 304,
+337 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+337 silly get     connection: 'keep-alive',
+337 silly get     'set-cookie':
+337 silly get      [ '__cfduid=dfa8a914ad7c63557e5ba54b6e128577a1586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+337 silly get     'cf-ray': '5825aebf0c0ced0f-SJC',
+337 silly get     age: '3688',
+337 silly get     'cache-control': 'public, max-age=300',
+337 silly get     etag: '"718757dbd8839dd3c92179b564d81a68"',
+337 silly get     'last-modified': 'Mon, 15 Jul 2019 13:16:24 GMT',
+337 silly get     vary: 'Accept-Encoding',
+337 silly get     'cf-cache-status': 'HIT',
+337 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+337 silly get     server: 'cloudflare' } ]
+338 verbose etag https://registry.npmjs.org/express-graphql from cache
+339 verbose get saving express-graphql to /home/userstar713/.npm/registry.npmjs.org/express-graphql/.cache.json
+340 http 304 https://registry.npmjs.org/cors
+341 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+341 verbose headers   connection: 'keep-alive',
+341 verbose headers   'set-cookie':
+341 verbose headers    [ '__cfduid=df053a563e03a365bb0f1bf4b636fd1671586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+341 verbose headers   'cf-ray': '5825aebf4b589292-SJC',
+341 verbose headers   age: '1128',
+341 verbose headers   'cache-control': 'public, max-age=300',
+341 verbose headers   etag: '"767c12bdc7bec542e86f096187e83911"',
+341 verbose headers   'last-modified': 'Fri, 29 Nov 2019 09:32:44 GMT',
+341 verbose headers   vary: 'Accept-Encoding',
+341 verbose headers   'cf-cache-status': 'HIT',
+341 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+341 verbose headers   server: 'cloudflare' }
+342 silly get cb [ 304,
+342 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+342 silly get     connection: 'keep-alive',
+342 silly get     'set-cookie':
+342 silly get      [ '__cfduid=df053a563e03a365bb0f1bf4b636fd1671586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+342 silly get     'cf-ray': '5825aebf4b589292-SJC',
+342 silly get     age: '1128',
+342 silly get     'cache-control': 'public, max-age=300',
+342 silly get     etag: '"767c12bdc7bec542e86f096187e83911"',
+342 silly get     'last-modified': 'Fri, 29 Nov 2019 09:32:44 GMT',
+342 silly get     vary: 'Accept-Encoding',
+342 silly get     'cf-cache-status': 'HIT',
+342 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+342 silly get     server: 'cloudflare' } ]
+343 verbose etag https://registry.npmjs.org/cors from cache
+344 verbose get saving cors to /home/userstar713/.npm/registry.npmjs.org/cors/.cache.json
+345 http 304 https://registry.npmjs.org/bcrypt
+346 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+346 verbose headers   connection: 'keep-alive',
+346 verbose headers   'set-cookie':
+346 verbose headers    [ '__cfduid=d7de0248e8dad79a58839d03715f517641586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+346 verbose headers   'cf-ray': '5825aebf294ded23-SJC',
+346 verbose headers   'cache-control': 'public, max-age=300',
+346 verbose headers   etag: '"834568389032c2e093f374cb001bf46c"',
+346 verbose headers   'last-modified': 'Mon, 02 Mar 2020 16:23:45 GMT',
+346 verbose headers   vary: 'Accept-Encoding',
+346 verbose headers   'cf-cache-status': 'REVALIDATED',
+346 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+346 verbose headers   server: 'cloudflare' }
+347 silly get cb [ 304,
+347 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+347 silly get     connection: 'keep-alive',
+347 silly get     'set-cookie':
+347 silly get      [ '__cfduid=d7de0248e8dad79a58839d03715f517641586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+347 silly get     'cf-ray': '5825aebf294ded23-SJC',
+347 silly get     'cache-control': 'public, max-age=300',
+347 silly get     etag: '"834568389032c2e093f374cb001bf46c"',
+347 silly get     'last-modified': 'Mon, 02 Mar 2020 16:23:45 GMT',
+347 silly get     vary: 'Accept-Encoding',
+347 silly get     'cf-cache-status': 'REVALIDATED',
+347 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+347 silly get     server: 'cloudflare' } ]
+348 verbose etag https://registry.npmjs.org/bcrypt from cache
+349 verbose get saving bcrypt to /home/userstar713/.npm/registry.npmjs.org/bcrypt/.cache.json
+350 http 304 https://registry.npmjs.org/graphql
+351 verbose headers { date: 'Sat, 11 Apr 2020 15:18:51 GMT',
+351 verbose headers   connection: 'keep-alive',
+351 verbose headers   'set-cookie':
+351 verbose headers    [ '__cfduid=db0e181cd6ae44ba39ed3f8969f9259481586618331; expires=Mon, 11-May-20 15:18:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+351 verbose headers   'cf-ray': '5825aebdaad8ed77-SJC',
+351 verbose headers   age: '3050',
+351 verbose headers   'cache-control': 'public, max-age=300',
+351 verbose headers   etag: '"c761c824fbe9a2ca7f2ac5f06a560920"',
+351 verbose headers   'last-modified': 'Thu, 02 Apr 2020 15:14:28 GMT',
+351 verbose headers   vary: 'Accept-Encoding',
+351 verbose headers   'cf-cache-status': 'HIT',
+351 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+351 verbose headers   server: 'cloudflare' }
+352 silly get cb [ 304,
+352 silly get   { date: 'Sat, 11 Apr 2020 15:18:51 GMT',
+352 silly get     connection: 'keep-alive',
+352 silly get     'set-cookie':
+352 silly get      [ '__cfduid=db0e181cd6ae44ba39ed3f8969f9259481586618331; expires=Mon, 11-May-20 15:18:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+352 silly get     'cf-ray': '5825aebdaad8ed77-SJC',
+352 silly get     age: '3050',
+352 silly get     'cache-control': 'public, max-age=300',
+352 silly get     etag: '"c761c824fbe9a2ca7f2ac5f06a560920"',
+352 silly get     'last-modified': 'Thu, 02 Apr 2020 15:14:28 GMT',
+352 silly get     vary: 'Accept-Encoding',
+352 silly get     'cf-cache-status': 'HIT',
+352 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+352 silly get     server: 'cloudflare' } ]
+353 verbose etag https://registry.npmjs.org/graphql from cache
+354 verbose get saving graphql to /home/userstar713/.npm/registry.npmjs.org/graphql/.cache.json
+355 info git [ 'config', '--get', 'remote.origin.url' ]
+356 warn addRemoteGit Error: Command failed: git config --get remote.origin.url
+356 warn addRemoteGit
+356 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:275:12)
+356 warn addRemoteGit     at emitTwo (events.js:126:13)
+356 warn addRemoteGit     at ChildProcess.emit (events.js:214:7)
+356 warn addRemoteGit     at maybeClose (internal/child_process.js:925:16)
+356 warn addRemoteGit     at Socket.stream.socket.on (internal/child_process.js:346:11)
+356 warn addRemoteGit     at emitOne (events.js:116:13)
+356 warn addRemoteGit     at Socket.emit (events.js:211:7)
+356 warn addRemoteGit     at Pipe._handle.close [as _onclose] (net.js:567:12)
+356 warn addRemoteGit  git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7 resetting remote /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c because of error: { Error: Command failed: git config --get remote.origin.url
+356 warn addRemoteGit
+356 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:275:12)
+356 warn addRemoteGit     at emitTwo (events.js:126:13)
+356 warn addRemoteGit     at ChildProcess.emit (events.js:214:7)
+356 warn addRemoteGit     at maybeClose (internal/child_process.js:925:16)
+356 warn addRemoteGit     at Socket.stream.socket.on (internal/child_process.js:346:11)
+356 warn addRemoteGit     at emitOne (events.js:116:13)
+356 warn addRemoteGit     at Socket.emit (events.js:211:7)
+356 warn addRemoteGit     at Pipe._handle.close [as _onclose] (net.js:567:12)
+356 warn addRemoteGit   killed: false,
+356 warn addRemoteGit   code: 1,
+356 warn addRemoteGit   signal: null,
+356 warn addRemoteGit   cmd: 'git config --get remote.origin.url' }
+357 info resetRemote resetting /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c for git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7
+358 silly gentlyRm /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c is being purged
+359 verbose gentlyRm don't care about contents; nuking /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c
+360 silly vacuum-fs purging /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c
+361 http 200 https://registry.npmjs.org/@hapi%2fjoi
+362 verbose headers { date: 'Sat, 11 Apr 2020 15:18:51 GMT',
+362 verbose headers   'content-type': 'application/json',
+362 verbose headers   'transfer-encoding': 'chunked',
+362 verbose headers   connection: 'keep-alive',
+362 verbose headers   'set-cookie':
+362 verbose headers    [ '__cfduid=dbcf036bbc9aa264a5a2cc811c9f676351586618331; expires=Mon, 11-May-20 15:18:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+362 verbose headers   'cf-ray': '5825aebd18d1ed17-SJC',
+362 verbose headers   age: '5785',
+362 verbose headers   'cache-control': 'public, max-age=300',
+362 verbose headers   etag: 'W/"485cc5cf40e01a12c5171905e02b3735"',
+362 verbose headers   'last-modified': 'Sat, 14 Mar 2020 00:03:57 GMT',
+362 verbose headers   vary: 'accept-encoding, accept',
+362 verbose headers   'cf-cache-status': 'HIT',
+362 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+362 verbose headers   server: 'cloudflare',
+362 verbose headers   'content-encoding': 'gzip' }
+363 silly get cb [ 200,
+363 silly get   { date: 'Sat, 11 Apr 2020 15:18:51 GMT',
+363 silly get     'content-type': 'application/json',
+363 silly get     'transfer-encoding': 'chunked',
+363 silly get     connection: 'keep-alive',
+363 silly get     'set-cookie':
+363 silly get      [ '__cfduid=dbcf036bbc9aa264a5a2cc811c9f676351586618331; expires=Mon, 11-May-20 15:18:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+363 silly get     'cf-ray': '5825aebd18d1ed17-SJC',
+363 silly get     age: '5785',
+363 silly get     'cache-control': 'public, max-age=300',
+363 silly get     etag: 'W/"485cc5cf40e01a12c5171905e02b3735"',
+363 silly get     'last-modified': 'Sat, 14 Mar 2020 00:03:57 GMT',
+363 silly get     vary: 'accept-encoding, accept',
+363 silly get     'cf-cache-status': 'HIT',
+363 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+363 silly get     server: 'cloudflare',
+363 silly get     'content-encoding': 'gzip' } ]
+364 verbose get saving @hapi/joi to /home/userstar713/.npm/registry.npmjs.org/_40hapi_252fjoi/.cache.json
+365 silly resolveWithNewModule dotenv@8.0.0 checking installable status
+366 silly cache add args [ 'dotenv@8.0.0', null ]
+367 verbose cache add spec dotenv@8.0.0
+368 silly cache add parsed spec Result {
+368 silly cache add   raw: 'dotenv@8.0.0',
+368 silly cache add   scope: null,
+368 silly cache add   name: 'dotenv',
+368 silly cache add   rawSpec: '8.0.0',
+368 silly cache add   spec: '8.0.0',
+368 silly cache add   type: 'version' }
+369 silly addNamed dotenv@8.0.0
+370 verbose addNamed "8.0.0" is a plain semver version for dotenv
+371 silly mapToRegistry name dotenv
+372 silly mapToRegistry using default registry
+373 silly mapToRegistry registry https://registry.npmjs.org/
+374 silly mapToRegistry uri https://registry.npmjs.org/dotenv
+375 verbose addNameVersion registry:https://registry.npmjs.org/dotenv not in flight; fetching
+376 silly vacuum-fs quitting because other entries in /home/userstar713/.npm/_git-remotes
+377 silly resolveWithNewModule express-graphql@0.6.12 checking installable status
+378 silly cache add args [ 'express-graphql@0.6.12', null ]
+379 verbose cache add spec express-graphql@0.6.12
+380 silly cache add parsed spec Result {
+380 silly cache add   raw: 'express-graphql@0.6.12',
+380 silly cache add   scope: null,
+380 silly cache add   name: 'express-graphql',
+380 silly cache add   rawSpec: '0.6.12',
+380 silly cache add   spec: '0.6.12',
+380 silly cache add   type: 'version' }
+381 silly addNamed express-graphql@0.6.12
+382 verbose addNamed "0.6.12" is a plain semver version for express-graphql
+383 silly mapToRegistry name express-graphql
+384 silly mapToRegistry using default registry
+385 silly mapToRegistry registry https://registry.npmjs.org/
+386 silly mapToRegistry uri https://registry.npmjs.org/express-graphql
+387 verbose addNameVersion registry:https://registry.npmjs.org/express-graphql not in flight; fetching
+388 silly resolveWithNewModule cors@2.8.5 checking installable status
+389 silly cache add args [ 'cors@2.8.5', null ]
+390 verbose cache add spec cors@2.8.5
+391 silly cache add parsed spec Result {
+391 silly cache add   raw: 'cors@2.8.5',
+391 silly cache add   scope: null,
+391 silly cache add   name: 'cors',
+391 silly cache add   rawSpec: '2.8.5',
+391 silly cache add   spec: '2.8.5',
+391 silly cache add   type: 'version' }
+392 silly addNamed cors@2.8.5
+393 verbose addNamed "2.8.5" is a plain semver version for cors
+394 silly mapToRegistry name cors
+395 silly mapToRegistry using default registry
+396 silly mapToRegistry registry https://registry.npmjs.org/
+397 silly mapToRegistry uri https://registry.npmjs.org/cors
+398 verbose addNameVersion registry:https://registry.npmjs.org/cors not in flight; fetching
+399 silly resolveWithNewModule graphql@14.0.0 checking installable status
+400 silly cache add args [ 'graphql@14.0.0', null ]
+401 verbose cache add spec graphql@14.0.0
+402 silly cache add parsed spec Result {
+402 silly cache add   raw: 'graphql@14.0.0',
+402 silly cache add   scope: null,
+402 silly cache add   name: 'graphql',
+402 silly cache add   rawSpec: '14.0.0',
+402 silly cache add   spec: '14.0.0',
+402 silly cache add   type: 'version' }
+403 silly addNamed graphql@14.0.0
+404 verbose addNamed "14.0.0" is a plain semver version for graphql
+405 silly mapToRegistry name graphql
+406 silly mapToRegistry using default registry
+407 silly mapToRegistry registry https://registry.npmjs.org/
+408 silly mapToRegistry uri https://registry.npmjs.org/graphql
+409 verbose addNameVersion registry:https://registry.npmjs.org/graphql not in flight; fetching
+410 verbose get https://registry.npmjs.org/dotenv not expired, no request
+411 info git [ 'clone',
+411 info git   '--template=/home/userstar713/.npm/_git-remotes/_templates',
+411 info git   '--mirror',
+411 info git   'https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git',
+411 info git   '/home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c' ]
+412 verbose get https://registry.npmjs.org/cors not expired, no request
+413 verbose get https://registry.npmjs.org/express-graphql not expired, no request
+414 silly resolveWithNewModule bcrypt@3.0.2 checking installable status
+415 silly cache add args [ 'bcrypt@3.0.2', null ]
+416 verbose cache add spec bcrypt@3.0.2
+417 silly cache add parsed spec Result {
+417 silly cache add   raw: 'bcrypt@3.0.2',
+417 silly cache add   scope: null,
+417 silly cache add   name: 'bcrypt',
+417 silly cache add   rawSpec: '3.0.2',
+417 silly cache add   spec: '3.0.2',
+417 silly cache add   type: 'version' }
+418 silly addNamed bcrypt@3.0.2
+419 verbose addNamed "3.0.2" is a plain semver version for bcrypt
+420 silly mapToRegistry name bcrypt
+421 silly mapToRegistry using default registry
+422 silly mapToRegistry registry https://registry.npmjs.org/
+423 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+424 verbose addNameVersion registry:https://registry.npmjs.org/bcrypt not in flight; fetching
+425 verbose get https://registry.npmjs.org/graphql not expired, no request
+426 http 304 https://registry.npmjs.org/graphql-request
+427 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+427 verbose headers   connection: 'keep-alive',
+427 verbose headers   'set-cookie':
+427 verbose headers    [ '__cfduid=de930970d247f4265edaead3fa2c45a331586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+427 verbose headers   'cf-ray': '5825aec1385c9340-SJC',
+427 verbose headers   age: '2202',
+427 verbose headers   'cache-control': 'public, max-age=300',
+427 verbose headers   etag: '"043f1412f813674c7a960013849c8af5"',
+427 verbose headers   'last-modified': 'Thu, 04 Apr 2019 04:44:50 GMT',
+427 verbose headers   vary: 'Accept-Encoding',
+427 verbose headers   'cf-cache-status': 'HIT',
+427 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+427 verbose headers   server: 'cloudflare' }
+428 silly get cb [ 304,
+428 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+428 silly get     connection: 'keep-alive',
+428 silly get     'set-cookie':
+428 silly get      [ '__cfduid=de930970d247f4265edaead3fa2c45a331586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+428 silly get     'cf-ray': '5825aec1385c9340-SJC',
+428 silly get     age: '2202',
+428 silly get     'cache-control': 'public, max-age=300',
+428 silly get     etag: '"043f1412f813674c7a960013849c8af5"',
+428 silly get     'last-modified': 'Thu, 04 Apr 2019 04:44:50 GMT',
+428 silly get     vary: 'Accept-Encoding',
+428 silly get     'cf-cache-status': 'HIT',
+428 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+428 silly get     server: 'cloudflare' } ]
+429 verbose etag https://registry.npmjs.org/graphql-request from cache
+430 verbose get saving graphql-request to /home/userstar713/.npm/registry.npmjs.org/graphql-request/.cache.json
+431 silly resolveWithNewModule @hapi/joi@15.0.3 checking installable status
+432 silly cache add args [ '@hapi/joi@15.0.3', null ]
+433 verbose cache add spec @hapi/joi@15.0.3
+434 silly cache add parsed spec Result {
+434 silly cache add   raw: '@hapi/joi@15.0.3',
+434 silly cache add   scope: '@hapi',
+434 silly cache add   name: '@hapi/joi',
+434 silly cache add   rawSpec: '15.0.3',
+434 silly cache add   spec: '15.0.3',
+434 silly cache add   type: 'version' }
+435 silly addNamed @hapi/joi@15.0.3
+436 verbose addNamed "15.0.3" is a plain semver version for @hapi/joi
+437 silly mapToRegistry name @hapi/joi
+438 silly mapToRegistry scope (from package name) @hapi
+439 verbose mapToRegistry no registry URL found in name for scope @hapi
+440 silly mapToRegistry using default registry
+441 silly mapToRegistry registry https://registry.npmjs.org/
+442 silly mapToRegistry uri https://registry.npmjs.org/@hapi%2fjoi
+443 verbose addNameVersion registry:https://registry.npmjs.org/@hapi%2fjoi not in flight; fetching
+444 verbose get https://registry.npmjs.org/bcrypt not expired, no request
+445 silly cache afterAdd dotenv@8.0.0
+446 verbose afterAdd /home/userstar713/.npm/dotenv/8.0.0/package/package.json not in flight; writing
+447 silly cache afterAdd express-graphql@0.6.12
+448 verbose afterAdd /home/userstar713/.npm/express-graphql/0.6.12/package/package.json not in flight; writing
+449 verbose get https://registry.npmjs.org/@hapi%2fjoi not expired, no request
+450 warn deprecated @hapi/joi@15.0.3: This version is no longer maintained
+451 http 304 https://registry.npmjs.org/mandrill-api
+452 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+452 verbose headers   connection: 'keep-alive',
+452 verbose headers   'set-cookie':
+452 verbose headers    [ '__cfduid=d562b5f4394415ea0cbed38416735f2d31586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+452 verbose headers   'cf-ray': '5825aec0ec536d2e-SJC',
+452 verbose headers   'cache-control': 'public, max-age=300',
+452 verbose headers   etag: '"86978f40bc9f498ae3ac5c655fa88e3c"',
+452 verbose headers   'last-modified': 'Sun, 27 May 2018 07:21:58 GMT',
+452 verbose headers   vary: 'Accept-Encoding',
+452 verbose headers   'cf-cache-status': 'REVALIDATED',
+452 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+452 verbose headers   server: 'cloudflare' }
+453 silly get cb [ 304,
+453 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+453 silly get     connection: 'keep-alive',
+453 silly get     'set-cookie':
+453 silly get      [ '__cfduid=d562b5f4394415ea0cbed38416735f2d31586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+453 silly get     'cf-ray': '5825aec0ec536d2e-SJC',
+453 silly get     'cache-control': 'public, max-age=300',
+453 silly get     etag: '"86978f40bc9f498ae3ac5c655fa88e3c"',
+453 silly get     'last-modified': 'Sun, 27 May 2018 07:21:58 GMT',
+453 silly get     vary: 'Accept-Encoding',
+453 silly get     'cf-cache-status': 'REVALIDATED',
+453 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+453 silly get     server: 'cloudflare' } ]
+454 verbose etag https://registry.npmjs.org/mandrill-api from cache
+455 verbose get saving mandrill-api to /home/userstar713/.npm/registry.npmjs.org/mandrill-api/.cache.json
+456 silly resolveWithNewModule graphql-request@1.8.2 checking installable status
+457 silly cache add args [ 'graphql-request@^1.8.2', null ]
+458 verbose cache add spec graphql-request@^1.8.2
+459 silly cache add parsed spec Result {
+459 silly cache add   raw: 'graphql-request@^1.8.2',
+459 silly cache add   scope: null,
+459 silly cache add   name: 'graphql-request',
+459 silly cache add   rawSpec: '^1.8.2',
+459 silly cache add   spec: '>=1.8.2 <2.0.0',
+459 silly cache add   type: 'range' }
+460 silly addNamed graphql-request@>=1.8.2 <2.0.0
+461 verbose addNamed ">=1.8.2 <2.0.0" is a valid semver range for graphql-request
+462 silly addNameRange { name: 'graphql-request',
+462 silly addNameRange   range: '>=1.8.2 <2.0.0',
+462 silly addNameRange   hasData: false }
+463 silly mapToRegistry name graphql-request
+464 silly mapToRegistry using default registry
+465 silly mapToRegistry registry https://registry.npmjs.org/
+466 silly mapToRegistry uri https://registry.npmjs.org/graphql-request
+467 verbose addNameRange registry:https://registry.npmjs.org/graphql-request not in flight; fetching
+468 silly cache afterAdd cors@2.8.5
+469 verbose afterAdd /home/userstar713/.npm/cors/2.8.5/package/package.json not in flight; writing
+470 silly cache afterAdd graphql@14.0.0
+471 verbose afterAdd /home/userstar713/.npm/graphql/14.0.0/package/package.json not in flight; writing
+472 verbose afterAdd /home/userstar713/.npm/dotenv/8.0.0/package/package.json written
+473 verbose afterAdd /home/userstar713/.npm/express-graphql/0.6.12/package/package.json written
+474 verbose get https://registry.npmjs.org/graphql-request not expired, no request
+475 silly addNameRange number 2 { name: 'graphql-request',
+475 silly addNameRange   range: '>=1.8.2 <2.0.0',
+475 silly addNameRange   hasData: true }
+476 silly addNameRange versions [ 'graphql-request',
+476 silly addNameRange   [ '0.2.1',
+476 silly addNameRange     '0.2.2',
+476 silly addNameRange     '0.2.3',
+476 silly addNameRange     '1.0.0',
+476 silly addNameRange     '1.1.0',
+476 silly addNameRange     '1.1.1',
+476 silly addNameRange     '1.1.2',
+476 silly addNameRange     '1.1.3',
+476 silly addNameRange     '1.2.0',
+476 silly addNameRange     '1.3.0',
+476 silly addNameRange     '1.3.1',
+476 silly addNameRange     '1.3.2',
+476 silly addNameRange     '1.3.3',
+476 silly addNameRange     '1.3.4',
+476 silly addNameRange     '1.3.5-alpha',
+476 silly addNameRange     '1.3.5',
+476 silly addNameRange     '1.3.6',
+476 silly addNameRange     '1.4.0',
+476 silly addNameRange     '1.4.1',
+476 silly addNameRange     '1.5.0',
+476 silly addNameRange     '1.5.1',
+476 silly addNameRange     '1.5.2',
+476 silly addNameRange     '1.6.0',
+476 silly addNameRange     '1.7.0',
+476 silly addNameRange     '1.8.0',
+476 silly addNameRange     '1.8.1',
+476 silly addNameRange     '1.8.2' ] ]
+477 silly addNamed graphql-request@1.8.2
+478 verbose addNamed "1.8.2" is a plain semver version for graphql-request
+479 verbose afterAdd /home/userstar713/.npm/cors/2.8.5/package/package.json written
+480 verbose afterAdd /home/userstar713/.npm/graphql/14.0.0/package/package.json written
+481 silly resolveWithNewModule mandrill-api@1.0.45 checking installable status
+482 silly cache add args [ 'mandrill-api@1.0.45', null ]
+483 verbose cache add spec mandrill-api@1.0.45
+484 silly cache add parsed spec Result {
+484 silly cache add   raw: 'mandrill-api@1.0.45',
+484 silly cache add   scope: null,
+484 silly cache add   name: 'mandrill-api',
+484 silly cache add   rawSpec: '1.0.45',
+484 silly cache add   spec: '1.0.45',
+484 silly cache add   type: 'version' }
+485 silly addNamed mandrill-api@1.0.45
+486 verbose addNamed "1.0.45" is a plain semver version for mandrill-api
+487 silly mapToRegistry name mandrill-api
+488 silly mapToRegistry using default registry
+489 silly mapToRegistry registry https://registry.npmjs.org/
+490 silly mapToRegistry uri https://registry.npmjs.org/mandrill-api
+491 verbose addNameVersion registry:https://registry.npmjs.org/mandrill-api not in flight; fetching
+492 silly cache afterAdd bcrypt@3.0.2
+493 verbose afterAdd /home/userstar713/.npm/bcrypt/3.0.2/package/package.json not in flight; writing
+494 silly cache afterAdd graphql-request@1.8.2
+495 verbose afterAdd /home/userstar713/.npm/graphql-request/1.8.2/package/package.json not in flight; writing
+496 verbose get https://registry.npmjs.org/mandrill-api not expired, no request
+497 verbose afterAdd /home/userstar713/.npm/bcrypt/3.0.2/package/package.json written
+498 verbose afterAdd /home/userstar713/.npm/graphql-request/1.8.2/package/package.json written
+499 silly cache afterAdd @hapi/joi@15.0.3
+500 verbose afterAdd /home/userstar713/.npm/@hapi/joi/15.0.3/package/package.json not in flight; writing
+501 silly cache afterAdd mandrill-api@1.0.45
+502 verbose afterAdd /home/userstar713/.npm/mandrill-api/1.0.45/package/package.json not in flight; writing
+503 verbose afterAdd /home/userstar713/.npm/@hapi/joi/15.0.3/package/package.json written
+504 verbose afterAdd /home/userstar713/.npm/mandrill-api/1.0.45/package/package.json written
+505 verbose addBundled extract /home/userstar713/.npm/bcrypt/3.0.2/package.tgz
+506 verbose tar unpack /home/userstar713/.npm/bcrypt/3.0.2/package.tgz
+507 verbose tar unpacking to /tmp/npm-32005-f6b949e4/unpack-a81867e1
+508 silly gentlyRm /tmp/npm-32005-f6b949e4/unpack-a81867e1 is being purged
+509 verbose gentlyRm don't care about contents; nuking /tmp/npm-32005-f6b949e4/unpack-a81867e1
+510 silly gunzTarPerm modes [ '775', '664' ]
+511 silly gunzTarPerm extractEntry package.json
+512 silly gunzTarPerm extractEntry .editorconfig
+513 silly gunzTarPerm extractEntry .travis.yml
+514 silly gunzTarPerm extractEntry appveyor.yml
+515 silly gunzTarPerm extractEntry bcrypt.js
+516 silly gunzTarPerm extractEntry binding.gyp
+517 silly gunzTarPerm extractEntry CHANGELOG.md
+518 silly gunzTarPerm extractEntry ISSUE_TEMPLATE.md
+519 silly gunzTarPerm extractEntry LICENSE
+520 silly gunzTarPerm extractEntry Makefile
+521 silly gunzTarPerm extractEntry promises.js
+522 silly gunzTarPerm extractEntry README.md
+523 silly gunzTarPerm extractEntry examples/async_compare.js
+524 silly gunzTarPerm extractEntry examples/forever_gen_salt.js
+525 silly gunzTarPerm extractEntry src/bcrypt_node.cc
+526 silly gunzTarPerm extractEntry src/bcrypt.cc
+527 silly gunzTarPerm extractEntry src/blowfish.cc
+528 silly gunzTarPerm extractEntry src/node_blf.h
+529 silly gunzTarPerm extractEntry test/async.js
+530 silly gunzTarPerm extractEntry test/implementation.js
+531 silly gunzTarPerm extractEntry test/promise.js
+532 silly gunzTarPerm extractEntry test/repetitions.js
+533 silly gunzTarPerm extractEntry test/sync.js
+534 silly gunzTarPerm extractEntry node_modules/abbrev/abbrev.js
+535 silly gunzTarPerm extractEntry node_modules/abbrev/LICENSE
+536 silly gunzTarPerm extractEntry node_modules/abbrev/package.json
+537 silly gunzTarPerm extractEntry node_modules/abbrev/README.md
+538 silly gunzTarPerm extractEntry node_modules/ansi-regex/index.js
+539 silly gunzTarPerm extractEntry node_modules/ansi-regex/license
+540 silly gunzTarPerm extractEntry node_modules/ansi-regex/package.json
+541 silly gunzTarPerm extractEntry node_modules/ansi-regex/readme.md
+542 silly gunzTarPerm extractEntry node_modules/aproba/index.js
+543 silly gunzTarPerm extractEntry node_modules/aproba/LICENSE
+544 silly gunzTarPerm extractEntry node_modules/aproba/package.json
+545 silly gunzTarPerm extractEntry node_modules/aproba/README.md
+546 silly gunzTarPerm extractEntry node_modules/are-we-there-yet/CHANGES.md
+547 silly gunzTarPerm extractEntry node_modules/are-we-there-yet/index.js
+548 silly gunzTarPerm extractEntry node_modules/are-we-there-yet/LICENSE
+549 silly gunzTarPerm extractEntry node_modules/are-we-there-yet/package.json
+550 silly gunzTarPerm extractEntry node_modules/are-we-there-yet/README.md
+551 silly gunzTarPerm extractEntry node_modules/are-we-there-yet/tracker-base.js
+552 silly gunzTarPerm extractEntry node_modules/are-we-there-yet/tracker-group.js
+553 silly gunzTarPerm extractEntry node_modules/are-we-there-yet/tracker-stream.js
+554 silly gunzTarPerm extractEntry node_modules/are-we-there-yet/tracker.js
+555 silly gunzTarPerm extractEntry node_modules/balanced-match/.npmignore
+556 silly gunzTarPerm extractEntry node_modules/balanced-match/index.js
+557 silly gunzTarPerm extractEntry node_modules/balanced-match/LICENSE.md
+558 silly gunzTarPerm extractEntry node_modules/balanced-match/package.json
+559 silly gunzTarPerm extractEntry node_modules/balanced-match/README.md
+560 silly gunzTarPerm extractEntry node_modules/brace-expansion/index.js
+561 silly gunzTarPerm extractEntry node_modules/brace-expansion/LICENSE
+562 silly gunzTarPerm extractEntry node_modules/brace-expansion/package.json
+563 silly gunzTarPerm extractEntry node_modules/brace-expansion/README.md
+564 silly gunzTarPerm extractEntry node_modules/chownr/chownr.js
+565 silly gunzTarPerm extractEntry node_modules/chownr/LICENSE
+566 silly gunzTarPerm extractEntry node_modules/chownr/package.json
+567 silly gunzTarPerm extractEntry node_modules/chownr/README.md
+568 silly gunzTarPerm extractEntry node_modules/code-point-at/index.js
+569 silly gunzTarPerm extractEntry node_modules/code-point-at/license
+570 silly gunzTarPerm extractEntry node_modules/code-point-at/package.json
+571 silly gunzTarPerm extractEntry node_modules/code-point-at/readme.md
+572 silly gunzTarPerm extractEntry node_modules/concat-map/.travis.yml
+573 silly gunzTarPerm extractEntry node_modules/concat-map/example/map.js
+574 silly gunzTarPerm extractEntry node_modules/concat-map/index.js
+575 silly gunzTarPerm extractEntry node_modules/concat-map/LICENSE
+576 silly gunzTarPerm extractEntry node_modules/concat-map/package.json
+577 silly gunzTarPerm extractEntry node_modules/concat-map/README.markdown
+578 silly gunzTarPerm extractEntry node_modules/concat-map/test/map.js
+579 silly gunzTarPerm extractEntry node_modules/console-control-strings/index.js
+580 silly gunzTarPerm extractEntry node_modules/console-control-strings/LICENSE
+581 silly gunzTarPerm extractEntry node_modules/console-control-strings/package.json
+582 silly gunzTarPerm extractEntry node_modules/console-control-strings/README.md
+583 silly gunzTarPerm extractEntry node_modules/console-control-strings/README.md~
+584 silly gunzTarPerm extractEntry node_modules/core-util-is/float.patch
+585 silly gunzTarPerm extractEntry node_modules/core-util-is/lib/util.js
+586 silly gunzTarPerm extractEntry node_modules/core-util-is/LICENSE
+587 silly gunzTarPerm extractEntry node_modules/core-util-is/package.json
+588 silly gunzTarPerm extractEntry node_modules/core-util-is/README.md
+589 silly gunzTarPerm extractEntry node_modules/core-util-is/test.js
+590 silly gunzTarPerm extractEntry node_modules/debug/.coveralls.yml
+591 silly gunzTarPerm extractEntry node_modules/debug/.eslintrc
+592 silly gunzTarPerm extractEntry node_modules/debug/.npmignore
+593 silly gunzTarPerm extractEntry node_modules/debug/.travis.yml
+594 silly gunzTarPerm extractEntry node_modules/debug/CHANGELOG.md
+595 silly gunzTarPerm extractEntry node_modules/debug/component.json
+596 silly gunzTarPerm extractEntry node_modules/debug/karma.conf.js
+597 silly gunzTarPerm extractEntry node_modules/debug/LICENSE
+598 silly gunzTarPerm extractEntry node_modules/debug/Makefile
+599 silly gunzTarPerm extractEntry node_modules/debug/node.js
+600 silly gunzTarPerm extractEntry node_modules/debug/package.json
+601 silly gunzTarPerm extractEntry node_modules/debug/README.md
+602 silly gunzTarPerm extractEntry node_modules/debug/src/browser.js
+603 silly gunzTarPerm extractEntry node_modules/debug/src/debug.js
+604 silly gunzTarPerm extractEntry node_modules/debug/src/index.js
+605 silly gunzTarPerm extractEntry node_modules/debug/src/inspector-log.js
+606 silly gunzTarPerm extractEntry node_modules/debug/src/node.js
+607 silly gunzTarPerm extractEntry node_modules/deep-extend/CHANGELOG.md
+608 silly gunzTarPerm extractEntry node_modules/deep-extend/index.js
+609 silly gunzTarPerm extractEntry node_modules/deep-extend/lib/deep-extend.js
+610 silly gunzTarPerm extractEntry node_modules/deep-extend/LICENSE
+611 silly gunzTarPerm extractEntry node_modules/deep-extend/package.json
+612 silly gunzTarPerm extractEntry node_modules/deep-extend/README.md
+613 silly gunzTarPerm extractEntry node_modules/delegates/.npmignore
+614 silly gunzTarPerm extractEntry node_modules/delegates/History.md
+615 silly gunzTarPerm extractEntry node_modules/delegates/index.js
+616 silly gunzTarPerm extractEntry node_modules/delegates/License
+617 silly gunzTarPerm extractEntry node_modules/delegates/Makefile
+618 silly gunzTarPerm extractEntry node_modules/delegates/package.json
+619 silly gunzTarPerm extractEntry node_modules/delegates/Readme.md
+620 silly gunzTarPerm extractEntry node_modules/delegates/test/index.js
+621 silly gunzTarPerm extractEntry node_modules/detect-libc/.npmignore
+622 silly gunzTarPerm extractEntry node_modules/detect-libc/bin/detect-libc.js
+623 silly gunzTarPerm extractEntry node_modules/detect-libc/lib/detect-libc.js
+624 silly gunzTarPerm extractEntry node_modules/detect-libc/LICENSE
+625 silly gunzTarPerm extractEntry node_modules/detect-libc/package.json
+626 silly gunzTarPerm extractEntry node_modules/detect-libc/README.md
+627 silly gunzTarPerm extractEntry node_modules/fs-minipass/index.js
+628 silly gunzTarPerm extractEntry node_modules/fs-minipass/LICENSE
+629 silly gunzTarPerm extractEntry node_modules/fs-minipass/package.json
+630 silly gunzTarPerm extractEntry node_modules/fs-minipass/README.md
+631 silly gunzTarPerm extractEntry node_modules/fs.realpath/index.js
+632 silly gunzTarPerm extractEntry node_modules/fs.realpath/LICENSE
+633 silly gunzTarPerm extractEntry node_modules/fs.realpath/old.js
+634 silly gunzTarPerm extractEntry node_modules/fs.realpath/package.json
+635 silly gunzTarPerm extractEntry node_modules/fs.realpath/README.md
+636 silly gunzTarPerm extractEntry node_modules/gauge/base-theme.js
+637 silly gunzTarPerm extractEntry node_modules/gauge/CHANGELOG.md
+638 silly gunzTarPerm extractEntry node_modules/gauge/error.js
+639 silly gunzTarPerm extractEntry node_modules/gauge/has-color.js
+640 silly gunzTarPerm extractEntry node_modules/gauge/index.js
+641 silly gunzTarPerm extractEntry node_modules/gauge/LICENSE
+642 silly gunzTarPerm extractEntry node_modules/gauge/package.json
+643 silly gunzTarPerm extractEntry node_modules/gauge/plumbing.js
+644 silly gunzTarPerm extractEntry node_modules/gauge/process.js
+645 silly gunzTarPerm extractEntry node_modules/gauge/progress-bar.js
+646 silly gunzTarPerm extractEntry node_modules/gauge/README.md
+647 silly gunzTarPerm extractEntry node_modules/gauge/render-template.js
+648 silly gunzTarPerm extractEntry node_modules/gauge/set-immediate.js
+649 silly gunzTarPerm extractEntry node_modules/gauge/set-interval.js
+650 silly gunzTarPerm extractEntry node_modules/gauge/spin.js
+651 silly gunzTarPerm extractEntry node_modules/gauge/template-item.js
+652 silly gunzTarPerm extractEntry node_modules/gauge/theme-set.js
+653 silly gunzTarPerm extractEntry node_modules/gauge/themes.js
+654 silly gunzTarPerm extractEntry node_modules/gauge/wide-truncate.js
+655 silly gunzTarPerm extractEntry node_modules/glob/changelog.md
+656 silly gunzTarPerm extractEntry node_modules/glob/common.js
+657 silly gunzTarPerm extractEntry node_modules/glob/glob.js
+658 silly gunzTarPerm extractEntry node_modules/glob/LICENSE
+659 silly gunzTarPerm extractEntry node_modules/glob/package.json
+660 silly gunzTarPerm extractEntry node_modules/glob/README.md
+661 silly gunzTarPerm extractEntry node_modules/glob/sync.js
+662 silly gunzTarPerm extractEntry node_modules/has-unicode/index.js
+663 silly gunzTarPerm extractEntry node_modules/has-unicode/LICENSE
+664 silly gunzTarPerm extractEntry node_modules/has-unicode/package.json
+665 silly gunzTarPerm extractEntry node_modules/has-unicode/README.md
+666 silly gunzTarPerm extractEntry node_modules/iconv-lite/Changelog.md
+667 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/dbcs-codec.js
+668 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/dbcs-data.js
+669 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/index.js
+670 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/internal.js
+671 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/sbcs-codec.js
+672 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/sbcs-data-generated.js
+673 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/sbcs-data.js
+674 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/tables/big5-added.json
+675 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/tables/cp936.json
+676 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/tables/cp949.json
+677 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/tables/cp950.json
+678 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/tables/eucjp.json
+679 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
+680 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/tables/gbk-added.json
+681 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/tables/shiftjis.json
+682 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/utf16.js
+683 silly gunzTarPerm extractEntry node_modules/iconv-lite/encodings/utf7.js
+684 silly gunzTarPerm extractEntry node_modules/iconv-lite/lib/bom-handling.js
+685 silly gunzTarPerm extractEntry node_modules/iconv-lite/lib/extend-node.js
+686 silly gunzTarPerm extractEntry node_modules/iconv-lite/lib/index.d.ts
+687 silly gunzTarPerm extractEntry node_modules/iconv-lite/lib/index.js
+688 silly gunzTarPerm extractEntry node_modules/iconv-lite/lib/streams.js
+689 silly gunzTarPerm extractEntry node_modules/iconv-lite/LICENSE
+690 silly gunzTarPerm extractEntry node_modules/iconv-lite/package.json
+691 silly gunzTarPerm extractEntry node_modules/iconv-lite/README.md
+692 silly gunzTarPerm extractEntry node_modules/ignore-walk/index.js
+693 silly gunzTarPerm extractEntry node_modules/ignore-walk/LICENSE
+694 silly gunzTarPerm extractEntry node_modules/ignore-walk/package.json
+695 silly gunzTarPerm extractEntry node_modules/ignore-walk/README.md
+696 silly gunzTarPerm extractEntry node_modules/inflight/inflight.js
+697 silly gunzTarPerm extractEntry node_modules/inflight/LICENSE
+698 silly gunzTarPerm extractEntry node_modules/inflight/package.json
+699 silly gunzTarPerm extractEntry node_modules/inflight/README.md
+700 silly gunzTarPerm extractEntry node_modules/inherits/inherits_browser.js
+701 silly gunzTarPerm extractEntry node_modules/inherits/inherits.js
+702 silly gunzTarPerm extractEntry node_modules/inherits/LICENSE
+703 silly gunzTarPerm extractEntry node_modules/inherits/package.json
+704 silly gunzTarPerm extractEntry node_modules/inherits/README.md
+705 silly gunzTarPerm extractEntry node_modules/ini/ini.js
+706 silly gunzTarPerm extractEntry node_modules/ini/LICENSE
+707 silly gunzTarPerm extractEntry node_modules/ini/package.json
+708 silly gunzTarPerm extractEntry node_modules/ini/README.md
+709 silly gunzTarPerm extractEntry node_modules/is-fullwidth-code-point/index.js
+710 silly gunzTarPerm extractEntry node_modules/is-fullwidth-code-point/license
+711 silly gunzTarPerm extractEntry node_modules/is-fullwidth-code-point/package.json
+712 silly gunzTarPerm extractEntry node_modules/is-fullwidth-code-point/readme.md
+713 silly gunzTarPerm extractEntry node_modules/isarray/.npmignore
+714 silly gunzTarPerm extractEntry node_modules/isarray/.travis.yml
+715 silly gunzTarPerm extractEntry node_modules/isarray/component.json
+716 silly gunzTarPerm extractEntry node_modules/isarray/index.js
+717 silly gunzTarPerm extractEntry node_modules/isarray/Makefile
+718 silly gunzTarPerm extractEntry node_modules/isarray/package.json
+719 silly gunzTarPerm extractEntry node_modules/isarray/README.md
+720 silly gunzTarPerm extractEntry node_modules/isarray/test.js
+721 silly gunzTarPerm extractEntry node_modules/minimatch/LICENSE
+722 silly gunzTarPerm extractEntry node_modules/minimatch/minimatch.js
+723 silly gunzTarPerm extractEntry node_modules/minimatch/package.json
+724 silly gunzTarPerm extractEntry node_modules/minimatch/README.md
+725 silly gunzTarPerm extractEntry node_modules/minimist/.travis.yml
+726 http 200 https://registry.npmjs.org/nodemailer
+727 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+727 verbose headers   'content-type': 'application/json',
+727 verbose headers   'transfer-encoding': 'chunked',
+727 verbose headers   connection: 'keep-alive',
+727 verbose headers   'set-cookie':
+727 verbose headers    [ '__cfduid=d8015405b30c98ef3ed15680634485f321586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+727 verbose headers   'cf-ray': '5825aec1481e95f9-SJC',
+727 verbose headers   age: '6528',
+727 verbose headers   'cache-control': 'public, max-age=300',
+727 verbose headers   etag: 'W/"b4cd1eca07cbe087e711b84b5af2d15f"',
+727 verbose headers   'last-modified': 'Fri, 20 Mar 2020 10:19:05 GMT',
+727 verbose headers   vary: 'accept-encoding, accept',
+727 verbose headers   'cf-cache-status': 'HIT',
+727 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+727 verbose headers   server: 'cloudflare',
+727 verbose headers   'content-encoding': 'gzip' }
+728 silly get cb [ 200,
+728 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+728 silly get     'content-type': 'application/json',
+728 silly get     'transfer-encoding': 'chunked',
+728 silly get     connection: 'keep-alive',
+728 silly get     'set-cookie':
+728 silly get      [ '__cfduid=d8015405b30c98ef3ed15680634485f321586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+728 silly get     'cf-ray': '5825aec1481e95f9-SJC',
+728 silly get     age: '6528',
+728 silly get     'cache-control': 'public, max-age=300',
+728 silly get     etag: 'W/"b4cd1eca07cbe087e711b84b5af2d15f"',
+728 silly get     'last-modified': 'Fri, 20 Mar 2020 10:19:05 GMT',
+728 silly get     vary: 'accept-encoding, accept',
+728 silly get     'cf-cache-status': 'HIT',
+728 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+728 silly get     server: 'cloudflare',
+728 silly get     'content-encoding': 'gzip' } ]
+729 verbose get saving nodemailer to /home/userstar713/.npm/registry.npmjs.org/nodemailer/.cache.json
+730 http 304 https://registry.npmjs.org/nodemailer-mandrill-transport
+731 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+731 verbose headers   connection: 'keep-alive',
+731 verbose headers   'set-cookie':
+731 verbose headers    [ '__cfduid=d95cd1bda42b6e06d1b6bb143162688f11586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+731 verbose headers   'cf-ray': '5825aec2fa5c6c7a-SJC',
+731 verbose headers   'cache-control': 'public, max-age=300',
+731 verbose headers   etag: '"8d9ac893068f556b068f1f5fdbdab9b1"',
+731 verbose headers   'last-modified': 'Sun, 27 May 2018 10:27:58 GMT',
+731 verbose headers   vary: 'Accept-Encoding',
+731 verbose headers   'cf-cache-status': 'MISS',
+731 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+731 verbose headers   server: 'cloudflare' }
+732 silly get cb [ 304,
+732 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+732 silly get     connection: 'keep-alive',
+732 silly get     'set-cookie':
+732 silly get      [ '__cfduid=d95cd1bda42b6e06d1b6bb143162688f11586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+732 silly get     'cf-ray': '5825aec2fa5c6c7a-SJC',
+732 silly get     'cache-control': 'public, max-age=300',
+732 silly get     etag: '"8d9ac893068f556b068f1f5fdbdab9b1"',
+732 silly get     'last-modified': 'Sun, 27 May 2018 10:27:58 GMT',
+732 silly get     vary: 'Accept-Encoding',
+732 silly get     'cf-cache-status': 'MISS',
+732 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+732 silly get     server: 'cloudflare' } ]
+733 verbose etag https://registry.npmjs.org/nodemailer-mandrill-transport from cache
+734 verbose get saving nodemailer-mandrill-transport to /home/userstar713/.npm/registry.npmjs.org/nodemailer-mandrill-transport/.cache.json
+735 silly gunzTarPerm extractEntry node_modules/minimist/example/parse.js
+736 silly gunzTarPerm extractEntry node_modules/minimist/index.js
+737 silly resolveWithNewModule nodemailer-mandrill-transport@1.2.0 checking installable status
+738 silly cache add args [ 'nodemailer-mandrill-transport@1.2.0', null ]
+739 verbose cache add spec nodemailer-mandrill-transport@1.2.0
+740 silly cache add parsed spec Result {
+740 silly cache add   raw: 'nodemailer-mandrill-transport@1.2.0',
+740 silly cache add   scope: null,
+740 silly cache add   name: 'nodemailer-mandrill-transport',
+740 silly cache add   rawSpec: '1.2.0',
+740 silly cache add   spec: '1.2.0',
+740 silly cache add   type: 'version' }
+741 silly addNamed nodemailer-mandrill-transport@1.2.0
+742 verbose addNamed "1.2.0" is a plain semver version for nodemailer-mandrill-transport
+743 silly mapToRegistry name nodemailer-mandrill-transport
+744 silly mapToRegistry using default registry
+745 silly mapToRegistry registry https://registry.npmjs.org/
+746 silly mapToRegistry uri https://registry.npmjs.org/nodemailer-mandrill-transport
+747 verbose addNameVersion registry:https://registry.npmjs.org/nodemailer-mandrill-transport not in flight; fetching
+748 silly gunzTarPerm extractEntry node_modules/minimist/LICENSE
+749 silly gunzTarPerm extractEntry node_modules/minimist/package.json
+750 silly resolveWithNewModule nodemailer@4.7.0 checking installable status
+751 silly cache add args [ 'nodemailer@4.7.0', null ]
+752 verbose cache add spec nodemailer@4.7.0
+753 silly cache add parsed spec Result {
+753 silly cache add   raw: 'nodemailer@4.7.0',
+753 silly cache add   scope: null,
+753 silly cache add   name: 'nodemailer',
+753 silly cache add   rawSpec: '4.7.0',
+753 silly cache add   spec: '4.7.0',
+753 silly cache add   type: 'version' }
+754 silly addNamed nodemailer@4.7.0
+755 verbose addNamed "4.7.0" is a plain semver version for nodemailer
+756 silly mapToRegistry name nodemailer
+757 silly mapToRegistry using default registry
+758 silly mapToRegistry registry https://registry.npmjs.org/
+759 silly mapToRegistry uri https://registry.npmjs.org/nodemailer
+760 verbose addNameVersion registry:https://registry.npmjs.org/nodemailer not in flight; fetching
+761 verbose get https://registry.npmjs.org/nodemailer-mandrill-transport not expired, no request
+762 verbose get https://registry.npmjs.org/nodemailer not expired, no request
+763 silly gunzTarPerm extractEntry node_modules/minimist/readme.markdown
+764 silly gunzTarPerm extractEntry node_modules/minimist/test/dash.js
+765 silly gunzTarPerm extractEntry node_modules/minimist/test/default_bool.js
+766 silly gunzTarPerm extractEntry node_modules/minimist/test/dotted.js
+767 silly gunzTarPerm extractEntry node_modules/minimist/test/long.js
+768 silly gunzTarPerm extractEntry node_modules/minimist/test/parse_modified.js
+769 silly gunzTarPerm extractEntry node_modules/minimist/test/parse.js
+770 silly gunzTarPerm extractEntry node_modules/minimist/test/short.js
+771 silly cache afterAdd nodemailer-mandrill-transport@1.2.0
+772 verbose afterAdd /home/userstar713/.npm/nodemailer-mandrill-transport/1.2.0/package/package.json not in flight; writing
+773 verbose afterAdd /home/userstar713/.npm/nodemailer-mandrill-transport/1.2.0/package/package.json written
+774 silly gunzTarPerm extractEntry node_modules/minimist/test/whitespace.js
+775 silly gunzTarPerm extractEntry node_modules/minipass/index.js
+776 silly gunzTarPerm extractEntry node_modules/minipass/LICENSE
+777 silly gunzTarPerm extractEntry node_modules/minipass/node_modules/safe-buffer/index.d.ts
+778 silly gunzTarPerm extractEntry node_modules/minipass/node_modules/safe-buffer/index.js
+779 silly gunzTarPerm extractEntry node_modules/minipass/node_modules/safe-buffer/LICENSE
+780 silly gunzTarPerm extractEntry node_modules/minipass/node_modules/safe-buffer/package.json
+781 silly gunzTarPerm extractEntry node_modules/minipass/node_modules/safe-buffer/README.md
+782 silly cache afterAdd nodemailer@4.7.0
+783 verbose afterAdd /home/userstar713/.npm/nodemailer/4.7.0/package/package.json not in flight; writing
+784 silly gunzTarPerm extractEntry node_modules/minipass/node_modules/yallist/iterator.js
+785 silly gunzTarPerm extractEntry node_modules/minipass/node_modules/yallist/LICENSE
+786 verbose afterAdd /home/userstar713/.npm/nodemailer/4.7.0/package/package.json written
+787 silly gunzTarPerm extractEntry node_modules/minipass/node_modules/yallist/package.json
+788 silly gunzTarPerm extractEntry node_modules/minipass/node_modules/yallist/README.md
+789 silly gunzTarPerm extractEntry node_modules/minipass/node_modules/yallist/yallist.js
+790 silly gunzTarPerm extractEntry node_modules/minipass/package.json
+791 silly gunzTarPerm extractEntry node_modules/minipass/README.md
+792 silly gunzTarPerm extractEntry node_modules/minizlib/constants.js
+793 silly gunzTarPerm extractEntry node_modules/minizlib/index.js
+794 silly gunzTarPerm extractEntry node_modules/minizlib/LICENSE
+795 silly gunzTarPerm extractEntry node_modules/minizlib/package.json
+796 silly gunzTarPerm extractEntry node_modules/minizlib/README.md
+797 silly gunzTarPerm extractEntry node_modules/mkdirp/.travis.yml
+798 silly gunzTarPerm extractEntry node_modules/mkdirp/bin/cmd.js
+799 silly gunzTarPerm extractEntry node_modules/mkdirp/bin/usage.txt
+800 silly gunzTarPerm extractEntry node_modules/mkdirp/examples/pow.js
+801 silly gunzTarPerm extractEntry node_modules/mkdirp/index.js
+802 silly gunzTarPerm extractEntry node_modules/mkdirp/LICENSE
+803 silly gunzTarPerm extractEntry node_modules/mkdirp/package.json
+804 silly gunzTarPerm extractEntry node_modules/mkdirp/readme.markdown
+805 silly gunzTarPerm extractEntry node_modules/mkdirp/test/chmod.js
+806 silly gunzTarPerm extractEntry node_modules/mkdirp/test/clobber.js
+807 silly gunzTarPerm extractEntry node_modules/mkdirp/test/mkdirp.js
+808 silly gunzTarPerm extractEntry node_modules/mkdirp/test/opts_fs_sync.js
+809 silly gunzTarPerm extractEntry node_modules/mkdirp/test/opts_fs.js
+810 silly gunzTarPerm extractEntry node_modules/mkdirp/test/perm_sync.js
+811 silly gunzTarPerm extractEntry node_modules/mkdirp/test/perm.js
+812 silly gunzTarPerm extractEntry node_modules/mkdirp/test/race.js
+813 silly gunzTarPerm extractEntry node_modules/mkdirp/test/rel.js
+814 silly gunzTarPerm extractEntry node_modules/mkdirp/test/return_sync.js
+815 silly gunzTarPerm extractEntry node_modules/mkdirp/test/return.js
+816 silly gunzTarPerm extractEntry node_modules/mkdirp/test/root.js
+817 silly gunzTarPerm extractEntry node_modules/mkdirp/test/sync.js
+818 silly gunzTarPerm extractEntry node_modules/mkdirp/test/umask_sync.js
+819 silly gunzTarPerm extractEntry node_modules/mkdirp/test/umask.js
+820 silly gunzTarPerm extractEntry node_modules/ms/index.js
+821 silly gunzTarPerm extractEntry node_modules/ms/license.md
+822 silly gunzTarPerm extractEntry node_modules/ms/package.json
+823 silly gunzTarPerm extractEntry node_modules/ms/readme.md
+824 silly gunzTarPerm extractEntry node_modules/needle/bin/needle
+825 silly gunzTarPerm extractEntry node_modules/needle/examples/deflated-stream.js
+826 silly gunzTarPerm extractEntry node_modules/needle/examples/digest-auth.js
+827 silly gunzTarPerm extractEntry node_modules/needle/examples/download-to-file.js
+828 silly gunzTarPerm extractEntry node_modules/needle/examples/multipart-stream.js
+829 silly gunzTarPerm extractEntry node_modules/needle/examples/parsed-stream.js
+830 silly gunzTarPerm extractEntry node_modules/needle/examples/parsed-stream2.js
+831 silly gunzTarPerm extractEntry node_modules/needle/examples/stream-events.js
+832 silly gunzTarPerm extractEntry node_modules/needle/examples/stream-to-file.js
+833 silly gunzTarPerm extractEntry node_modules/needle/examples/upload-image.js
+834 silly gunzTarPerm extractEntry node_modules/needle/lib/auth.js
+835 silly gunzTarPerm extractEntry node_modules/needle/lib/cookies.js
+836 silly gunzTarPerm extractEntry node_modules/needle/lib/decoder.js
+837 silly gunzTarPerm extractEntry node_modules/needle/lib/multipart.js
+838 silly gunzTarPerm extractEntry node_modules/needle/lib/needle.js
+839 silly gunzTarPerm extractEntry node_modules/needle/lib/parsers.js
+840 silly gunzTarPerm extractEntry node_modules/needle/lib/querystring.js
+841 silly gunzTarPerm extractEntry node_modules/needle/license.txt
+842 silly gunzTarPerm extractEntry node_modules/needle/note.xml
+843 silly gunzTarPerm extractEntry node_modules/needle/note.xml.1
+844 silly gunzTarPerm extractEntry node_modules/needle/package.json
+845 silly gunzTarPerm extractEntry node_modules/needle/README.md
+846 silly gunzTarPerm extractEntry node_modules/needle/test/basic_auth_spec.js
+847 silly gunzTarPerm extractEntry node_modules/needle/test/compression_spec.js
+848 silly gunzTarPerm extractEntry node_modules/needle/test/cookies_spec.js
+849 silly gunzTarPerm extractEntry node_modules/needle/test/decoder_spec.js
+850 silly gunzTarPerm extractEntry node_modules/needle/test/errors_spec.js
+851 silly gunzTarPerm extractEntry node_modules/needle/test/headers_spec.js
+852 silly gunzTarPerm extractEntry node_modules/needle/test/helpers.js
+853 silly gunzTarPerm extractEntry node_modules/needle/test/long_string_spec.js
+854 silly gunzTarPerm extractEntry node_modules/needle/test/output_spec.js
+855 silly gunzTarPerm extractEntry node_modules/needle/test/parsing_spec.js
+856 silly gunzTarPerm extractEntry node_modules/needle/test/post_data_spec.js
+857 silly gunzTarPerm extractEntry node_modules/needle/test/proxy_spec.js
+858 silly gunzTarPerm extractEntry node_modules/needle/test/querystring_spec.js
+859 silly gunzTarPerm extractEntry node_modules/needle/test/redirect_spec.js
+860 silly gunzTarPerm extractEntry node_modules/needle/test/redirect_with_timeout.js
+861 silly gunzTarPerm extractEntry node_modules/needle/test/request_stream_spec.js
+862 silly gunzTarPerm extractEntry node_modules/needle/test/response_stream_spec.js
+863 silly gunzTarPerm extractEntry node_modules/needle/test/socket_pool_spec.js
+864 silly gunzTarPerm extractEntry node_modules/needle/test/url_spec.js
+865 silly gunzTarPerm extractEntry node_modules/needle/test/utils/formidable.js
+866 silly gunzTarPerm extractEntry node_modules/needle/test/utils/proxy.js
+867 silly gunzTarPerm extractEntry node_modules/needle/test/utils/test.js
+868 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/appveyor.yml
+869 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/bin/node-pre-gyp
+870 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/bin/node-pre-gyp.cmd
+871 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/CHANGELOG.md
+872 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/contributing.md
+873 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/build.js
+874 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/clean.js
+875 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/configure.js
+876 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/info.js
+877 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/install.js
+878 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/node-pre-gyp.js
+879 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/package.js
+880 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/pre-binding.js
+881 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/publish.js
+882 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/rebuild.js
+883 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/reinstall.js
+884 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/reveal.js
+885 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/testbinary.js
+886 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/testpackage.js
+887 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/unpublish.js
+888 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/util/abi_crosswalk.json
+889 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/util/compile.js
+890 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/util/handle_gyp_opts.js
+891 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/util/napi.js
+892 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/util/nw-pre-gyp/index.html
+893 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json
+894 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/util/s3_setup.js
+895 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/lib/util/versioning.js
+896 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/LICENSE
+897 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/package.json
+898 silly gunzTarPerm extractEntry node_modules/node-pre-gyp/README.md
+899 silly gunzTarPerm extractEntry node_modules/nopt/.npmignore
+900 silly gunzTarPerm extractEntry node_modules/nopt/.travis.yml
+901 silly gunzTarPerm extractEntry node_modules/nopt/bin/nopt.js
+902 silly gunzTarPerm extractEntry node_modules/nopt/CHANGELOG.md
+903 silly gunzTarPerm extractEntry node_modules/nopt/examples/my-program.js
+904 silly gunzTarPerm extractEntry node_modules/nopt/lib/nopt.js
+905 silly gunzTarPerm extractEntry node_modules/nopt/LICENSE
+906 silly gunzTarPerm extractEntry node_modules/nopt/package.json
+907 silly gunzTarPerm extractEntry node_modules/nopt/README.md
+908 silly gunzTarPerm extractEntry node_modules/nopt/test/basic.js
+909 silly gunzTarPerm extractEntry node_modules/npm-bundled/index.js
+910 silly gunzTarPerm extractEntry node_modules/npm-bundled/LICENSE
+911 silly gunzTarPerm extractEntry node_modules/npm-bundled/package.json
+912 silly gunzTarPerm extractEntry node_modules/npm-bundled/README.md
+913 silly gunzTarPerm extractEntry node_modules/npm-packlist/index.js
+914 silly gunzTarPerm extractEntry node_modules/npm-packlist/LICENSE
+915 silly gunzTarPerm extractEntry node_modules/npm-packlist/package.json
+916 silly gunzTarPerm extractEntry node_modules/npm-packlist/README.md
+917 silly gunzTarPerm extractEntry node_modules/npmlog/CHANGELOG.md
+918 silly gunzTarPerm extractEntry node_modules/npmlog/LICENSE
+919 silly gunzTarPerm extractEntry node_modules/npmlog/log.js
+920 silly gunzTarPerm extractEntry node_modules/npmlog/package.json
+921 silly gunzTarPerm extractEntry node_modules/npmlog/README.md
+922 silly gunzTarPerm extractEntry node_modules/number-is-nan/index.js
+923 silly gunzTarPerm extractEntry node_modules/number-is-nan/license
+924 silly gunzTarPerm extractEntry node_modules/number-is-nan/package.json
+925 silly gunzTarPerm extractEntry node_modules/number-is-nan/readme.md
+926 silly gunzTarPerm extractEntry node_modules/object-assign/index.js
+927 silly gunzTarPerm extractEntry node_modules/object-assign/license
+928 silly gunzTarPerm extractEntry node_modules/object-assign/package.json
+929 silly gunzTarPerm extractEntry node_modules/object-assign/readme.md
+930 silly gunzTarPerm extractEntry node_modules/once/LICENSE
+931 silly gunzTarPerm extractEntry node_modules/once/once.js
+932 silly gunzTarPerm extractEntry node_modules/once/package.json
+933 silly gunzTarPerm extractEntry node_modules/once/README.md
+934 silly gunzTarPerm extractEntry node_modules/os-homedir/index.js
+935 silly gunzTarPerm extractEntry node_modules/os-homedir/license
+936 silly gunzTarPerm extractEntry node_modules/os-homedir/package.json
+937 silly gunzTarPerm extractEntry node_modules/os-homedir/readme.md
+938 silly gunzTarPerm extractEntry node_modules/os-tmpdir/index.js
+939 silly gunzTarPerm extractEntry node_modules/os-tmpdir/license
+940 silly gunzTarPerm extractEntry node_modules/os-tmpdir/package.json
+941 silly gunzTarPerm extractEntry node_modules/os-tmpdir/readme.md
+942 silly gunzTarPerm extractEntry node_modules/osenv/LICENSE
+943 silly gunzTarPerm extractEntry node_modules/osenv/osenv.js
+944 silly gunzTarPerm extractEntry node_modules/osenv/package.json
+945 silly gunzTarPerm extractEntry node_modules/osenv/README.md
+946 silly gunzTarPerm extractEntry node_modules/path-is-absolute/index.js
+947 silly gunzTarPerm extractEntry node_modules/path-is-absolute/license
+948 silly gunzTarPerm extractEntry node_modules/path-is-absolute/package.json
+949 silly gunzTarPerm extractEntry node_modules/path-is-absolute/readme.md
+950 silly gunzTarPerm extractEntry node_modules/process-nextick-args/index.js
+951 silly gunzTarPerm extractEntry node_modules/process-nextick-args/license.md
+952 silly gunzTarPerm extractEntry node_modules/process-nextick-args/package.json
+953 silly gunzTarPerm extractEntry node_modules/process-nextick-args/readme.md
+954 silly gunzTarPerm extractEntry node_modules/rc/browser.js
+955 silly gunzTarPerm extractEntry node_modules/rc/cli.js
+956 silly gunzTarPerm extractEntry node_modules/rc/index.js
+957 silly gunzTarPerm extractEntry node_modules/rc/lib/utils.js
+958 silly gunzTarPerm extractEntry node_modules/rc/LICENSE.APACHE2
+959 silly gunzTarPerm extractEntry node_modules/rc/LICENSE.BSD
+960 silly gunzTarPerm extractEntry node_modules/rc/LICENSE.MIT
+961 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/.travis.yml
+962 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/example/parse.js
+963 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/index.js
+964 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/LICENSE
+965 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/package.json
+966 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/readme.markdown
+967 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/all_bool.js
+968 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/bool.js
+969 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/dash.js
+970 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/default_bool.js
+971 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/dotted.js
+972 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/kv_short.js
+973 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/long.js
+974 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/num.js
+975 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/parse_modified.js
+976 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/parse.js
+977 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/short.js
+978 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/stop_early.js
+979 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/unknown.js
+980 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/whitespace.js
+981 silly gunzTarPerm extractEntry node_modules/rc/package.json
+982 silly gunzTarPerm extractEntry node_modules/rc/README.md
+983 silly gunzTarPerm extractEntry node_modules/rc/test/ini.js
+984 silly gunzTarPerm extractEntry node_modules/rc/test/nested-env-vars.js
+985 silly gunzTarPerm extractEntry node_modules/rc/test/test.js
+986 silly gunzTarPerm extractEntry node_modules/readable-stream/.travis.yml
+987 silly gunzTarPerm extractEntry node_modules/readable-stream/CONTRIBUTING.md
+988 silly gunzTarPerm extractEntry node_modules/readable-stream/doc/wg-meetings/2015-01-30.md
+989 silly gunzTarPerm extractEntry node_modules/readable-stream/duplex-browser.js
+990 silly gunzTarPerm extractEntry node_modules/readable-stream/duplex.js
+991 silly gunzTarPerm extractEntry node_modules/readable-stream/GOVERNANCE.md
+992 silly gunzTarPerm extractEntry node_modules/readable-stream/lib/_stream_duplex.js
+993 silly gunzTarPerm extractEntry node_modules/readable-stream/lib/_stream_passthrough.js
+994 silly gunzTarPerm extractEntry node_modules/readable-stream/lib/_stream_readable.js
+995 silly gunzTarPerm extractEntry node_modules/readable-stream/lib/_stream_transform.js
+996 silly gunzTarPerm extractEntry node_modules/readable-stream/lib/_stream_writable.js
+997 silly gunzTarPerm extractEntry node_modules/readable-stream/lib/internal/streams/BufferList.js
+998 silly gunzTarPerm extractEntry node_modules/readable-stream/lib/internal/streams/destroy.js
+999 silly gunzTarPerm extractEntry node_modules/readable-stream/lib/internal/streams/stream-browser.js
+1000 silly gunzTarPerm extractEntry node_modules/readable-stream/lib/internal/streams/stream.js
+1001 silly gunzTarPerm extractEntry node_modules/readable-stream/LICENSE
+1002 silly gunzTarPerm extractEntry node_modules/readable-stream/package.json
+1003 silly gunzTarPerm extractEntry node_modules/readable-stream/passthrough.js
+1004 silly gunzTarPerm extractEntry node_modules/readable-stream/readable-browser.js
+1005 silly gunzTarPerm extractEntry node_modules/readable-stream/readable.js
+1006 silly gunzTarPerm extractEntry node_modules/readable-stream/README.md
+1007 silly gunzTarPerm extractEntry node_modules/readable-stream/transform.js
+1008 silly gunzTarPerm extractEntry node_modules/readable-stream/writable-browser.js
+1009 silly gunzTarPerm extractEntry node_modules/readable-stream/writable.js
+1010 silly gunzTarPerm extractEntry node_modules/rimraf/bin.js
+1011 silly gunzTarPerm extractEntry node_modules/rimraf/LICENSE
+1012 silly gunzTarPerm extractEntry node_modules/rimraf/package.json
+1013 silly gunzTarPerm extractEntry node_modules/rimraf/README.md
+1014 silly gunzTarPerm extractEntry node_modules/rimraf/rimraf.js
+1015 silly gunzTarPerm extractEntry node_modules/safe-buffer/.travis.yml
+1016 silly gunzTarPerm extractEntry node_modules/safe-buffer/index.js
+1017 silly gunzTarPerm extractEntry node_modules/safe-buffer/LICENSE
+1018 silly gunzTarPerm extractEntry node_modules/safe-buffer/package.json
+1019 silly gunzTarPerm extractEntry node_modules/safe-buffer/README.md
+1020 silly gunzTarPerm extractEntry node_modules/safe-buffer/test.js
+1021 silly gunzTarPerm extractEntry node_modules/safer-buffer/dangerous.js
+1022 silly gunzTarPerm extractEntry node_modules/safer-buffer/LICENSE
+1023 silly gunzTarPerm extractEntry node_modules/safer-buffer/package.json
+1024 silly gunzTarPerm extractEntry node_modules/safer-buffer/Porting-Buffer.md
+1025 silly gunzTarPerm extractEntry node_modules/safer-buffer/Readme.md
+1026 silly gunzTarPerm extractEntry node_modules/safer-buffer/safer.js
+1027 silly gunzTarPerm extractEntry node_modules/safer-buffer/tests.js
+1028 silly gunzTarPerm extractEntry node_modules/sax/lib/sax.js
+1029 silly gunzTarPerm extractEntry node_modules/sax/LICENSE
+1030 silly gunzTarPerm extractEntry node_modules/sax/package.json
+1031 silly gunzTarPerm extractEntry node_modules/sax/README.md
+1032 silly gunzTarPerm extractEntry node_modules/semver/bin/semver
+1033 silly gunzTarPerm extractEntry node_modules/semver/LICENSE
+1034 silly gunzTarPerm extractEntry node_modules/semver/package.json
+1035 silly gunzTarPerm extractEntry node_modules/semver/range.bnf
+1036 silly gunzTarPerm extractEntry node_modules/semver/README.md
+1037 silly gunzTarPerm extractEntry node_modules/semver/semver.js
+1038 silly gunzTarPerm extractEntry node_modules/set-blocking/CHANGELOG.md
+1039 silly gunzTarPerm extractEntry node_modules/set-blocking/index.js
+1040 silly gunzTarPerm extractEntry node_modules/set-blocking/LICENSE.txt
+1041 silly gunzTarPerm extractEntry node_modules/set-blocking/package.json
+1042 silly gunzTarPerm extractEntry node_modules/set-blocking/README.md
+1043 silly gunzTarPerm extractEntry node_modules/signal-exit/CHANGELOG.md
+1044 silly gunzTarPerm extractEntry node_modules/signal-exit/index.js
+1045 silly gunzTarPerm extractEntry node_modules/signal-exit/LICENSE.txt
+1046 silly gunzTarPerm extractEntry node_modules/signal-exit/package.json
+1047 silly gunzTarPerm extractEntry node_modules/signal-exit/README.md
+1048 silly gunzTarPerm extractEntry node_modules/signal-exit/signals.js
+1049 silly gunzTarPerm extractEntry node_modules/string_decoder/.npmignore
+1050 silly gunzTarPerm extractEntry node_modules/string_decoder/lib/string_decoder.js
+1051 silly gunzTarPerm extractEntry node_modules/string_decoder/LICENSE
+1052 silly gunzTarPerm extractEntry node_modules/string_decoder/package.json
+1053 silly gunzTarPerm extractEntry node_modules/string_decoder/README.md
+1054 silly gunzTarPerm extractEntry node_modules/string-width/index.js
+1055 silly gunzTarPerm extractEntry node_modules/string-width/license
+1056 silly gunzTarPerm extractEntry node_modules/string-width/package.json
+1057 silly gunzTarPerm extractEntry node_modules/string-width/readme.md
+1058 silly gunzTarPerm extractEntry node_modules/strip-ansi/index.js
+1059 silly gunzTarPerm extractEntry node_modules/strip-ansi/license
+1060 silly gunzTarPerm extractEntry node_modules/strip-ansi/package.json
+1061 silly gunzTarPerm extractEntry node_modules/strip-ansi/readme.md
+1062 silly gunzTarPerm extractEntry node_modules/strip-json-comments/index.js
+1063 silly gunzTarPerm extractEntry node_modules/strip-json-comments/license
+1064 silly gunzTarPerm extractEntry node_modules/strip-json-comments/package.json
+1065 silly gunzTarPerm extractEntry node_modules/strip-json-comments/readme.md
+1066 silly gunzTarPerm extractEntry node_modules/tar/index.js
+1067 silly gunzTarPerm extractEntry node_modules/tar/lib/buffer.js
+1068 silly gunzTarPerm extractEntry node_modules/tar/lib/create.js
+1069 silly gunzTarPerm extractEntry node_modules/tar/lib/extract.js
+1070 silly gunzTarPerm extractEntry node_modules/tar/lib/header.js
+1071 silly gunzTarPerm extractEntry node_modules/tar/lib/high-level-opt.js
+1072 silly gunzTarPerm extractEntry node_modules/tar/lib/large-numbers.js
+1073 silly gunzTarPerm extractEntry node_modules/tar/lib/list.js
+1074 silly gunzTarPerm extractEntry node_modules/tar/lib/mkdir.js
+1075 silly gunzTarPerm extractEntry node_modules/tar/lib/mode-fix.js
+1076 silly gunzTarPerm extractEntry node_modules/tar/lib/pack.js
+1077 silly gunzTarPerm extractEntry node_modules/tar/lib/parse.js
+1078 silly gunzTarPerm extractEntry node_modules/tar/lib/pax.js
+1079 silly gunzTarPerm extractEntry node_modules/tar/lib/read-entry.js
+1080 silly gunzTarPerm extractEntry node_modules/tar/lib/replace.js
+1081 silly gunzTarPerm extractEntry node_modules/tar/lib/types.js
+1082 silly gunzTarPerm extractEntry node_modules/tar/lib/unpack.js
+1083 silly gunzTarPerm extractEntry node_modules/tar/lib/update.js
+1084 silly gunzTarPerm extractEntry node_modules/tar/lib/warn-mixin.js
+1085 silly gunzTarPerm extractEntry node_modules/tar/lib/winchars.js
+1086 silly gunzTarPerm extractEntry node_modules/tar/lib/write-entry.js
+1087 silly gunzTarPerm extractEntry node_modules/tar/LICENSE
+1088 silly gunzTarPerm extractEntry node_modules/tar/node_modules/safe-buffer/index.d.ts
+1089 silly gunzTarPerm extractEntry node_modules/tar/node_modules/safe-buffer/index.js
+1090 silly gunzTarPerm extractEntry node_modules/tar/node_modules/safe-buffer/LICENSE
+1091 silly gunzTarPerm extractEntry node_modules/tar/node_modules/safe-buffer/package.json
+1092 silly gunzTarPerm extractEntry node_modules/tar/node_modules/safe-buffer/README.md
+1093 silly gunzTarPerm extractEntry node_modules/tar/node_modules/yallist/iterator.js
+1094 silly gunzTarPerm extractEntry node_modules/tar/node_modules/yallist/LICENSE
+1095 silly gunzTarPerm extractEntry node_modules/tar/node_modules/yallist/package.json
+1096 silly gunzTarPerm extractEntry node_modules/tar/node_modules/yallist/README.md
+1097 silly gunzTarPerm extractEntry node_modules/tar/node_modules/yallist/yallist.js
+1098 silly gunzTarPerm extractEntry node_modules/tar/package.json
+1099 silly gunzTarPerm extractEntry node_modules/tar/README.md
+1100 silly gunzTarPerm extractEntry node_modules/util-deprecate/browser.js
+1101 silly gunzTarPerm extractEntry node_modules/util-deprecate/History.md
+1102 silly gunzTarPerm extractEntry node_modules/util-deprecate/LICENSE
+1103 silly gunzTarPerm extractEntry node_modules/util-deprecate/node.js
+1104 silly gunzTarPerm extractEntry node_modules/util-deprecate/package.json
+1105 silly gunzTarPerm extractEntry node_modules/util-deprecate/README.md
+1106 silly gunzTarPerm extractEntry node_modules/wide-align/align.js
+1107 silly gunzTarPerm extractEntry node_modules/wide-align/LICENSE
+1108 silly gunzTarPerm extractEntry node_modules/wide-align/package.json
+1109 silly gunzTarPerm extractEntry node_modules/wide-align/README.md
+1110 silly gunzTarPerm extractEntry node_modules/wrappy/LICENSE
+1111 silly gunzTarPerm extractEntry node_modules/wrappy/package.json
+1112 silly gunzTarPerm extractEntry node_modules/wrappy/README.md
+1113 silly gunzTarPerm extractEntry node_modules/wrappy/wrappy.js
+1114 http 304 https://registry.npmjs.org/jsonwebtoken
+1115 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+1115 verbose headers   connection: 'keep-alive',
+1115 verbose headers   'set-cookie':
+1115 verbose headers    [ '__cfduid=dce514ac93bb6a3fa7ca754a2a652eb421586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1115 verbose headers   'cf-ray': '5825aec4fa6e960b-SJC',
+1115 verbose headers   age: '4083',
+1115 verbose headers   'cache-control': 'public, max-age=300',
+1115 verbose headers   etag: '"01c5940f8157b53f3af88d2821c09ccd"',
+1115 verbose headers   'last-modified': 'Sat, 21 Sep 2019 18:44:15 GMT',
+1115 verbose headers   vary: 'Accept-Encoding',
+1115 verbose headers   'cf-cache-status': 'HIT',
+1115 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1115 verbose headers   server: 'cloudflare' }
+1116 silly get cb [ 304,
+1116 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+1116 silly get     connection: 'keep-alive',
+1116 silly get     'set-cookie':
+1116 silly get      [ '__cfduid=dce514ac93bb6a3fa7ca754a2a652eb421586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1116 silly get     'cf-ray': '5825aec4fa6e960b-SJC',
+1116 silly get     age: '4083',
+1116 silly get     'cache-control': 'public, max-age=300',
+1116 silly get     etag: '"01c5940f8157b53f3af88d2821c09ccd"',
+1116 silly get     'last-modified': 'Sat, 21 Sep 2019 18:44:15 GMT',
+1116 silly get     vary: 'Accept-Encoding',
+1116 silly get     'cf-cache-status': 'HIT',
+1116 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1116 silly get     server: 'cloudflare' } ]
+1117 verbose etag https://registry.npmjs.org/jsonwebtoken from cache
+1118 verbose get saving jsonwebtoken to /home/userstar713/.npm/registry.npmjs.org/jsonwebtoken/.cache.json
+1119 silly resolveWithNewModule jsonwebtoken@8.4.0 checking installable status
+1120 silly cache add args [ 'jsonwebtoken@8.4.0', null ]
+1121 verbose cache add spec jsonwebtoken@8.4.0
+1122 silly cache add parsed spec Result {
+1122 silly cache add   raw: 'jsonwebtoken@8.4.0',
+1122 silly cache add   scope: null,
+1122 silly cache add   name: 'jsonwebtoken',
+1122 silly cache add   rawSpec: '8.4.0',
+1122 silly cache add   spec: '8.4.0',
+1122 silly cache add   type: 'version' }
+1123 silly addNamed jsonwebtoken@8.4.0
+1124 verbose addNamed "8.4.0" is a plain semver version for jsonwebtoken
+1125 silly mapToRegistry name jsonwebtoken
+1126 silly mapToRegistry using default registry
+1127 silly mapToRegistry registry https://registry.npmjs.org/
+1128 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+1129 verbose addNameVersion registry:https://registry.npmjs.org/jsonwebtoken not in flight; fetching
+1130 verbose get https://registry.npmjs.org/jsonwebtoken not expired, no request
+1131 silly cache afterAdd jsonwebtoken@8.4.0
+1132 verbose afterAdd /home/userstar713/.npm/jsonwebtoken/8.4.0/package/package.json not in flight; writing
+1133 verbose afterAdd /home/userstar713/.npm/jsonwebtoken/8.4.0/package/package.json written
+1134 http 304 https://registry.npmjs.org/request-promise-native
+1135 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+1135 verbose headers   connection: 'keep-alive',
+1135 verbose headers   'set-cookie':
+1135 verbose headers    [ '__cfduid=d12d33814786891cdb0c11f03ad2c8bf71586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1135 verbose headers   'cf-ray': '5825aec4fc82ed57-SJC',
+1135 verbose headers   age: '6822',
+1135 verbose headers   'cache-control': 'public, max-age=300',
+1135 verbose headers   etag: '"2a11ded91efc0668ac15bba903f8b747"',
+1135 verbose headers   'last-modified': 'Mon, 04 Nov 2019 01:07:50 GMT',
+1135 verbose headers   vary: 'Accept-Encoding',
+1135 verbose headers   'cf-cache-status': 'HIT',
+1135 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1135 verbose headers   server: 'cloudflare' }
+1136 silly get cb [ 304,
+1136 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+1136 silly get     connection: 'keep-alive',
+1136 silly get     'set-cookie':
+1136 silly get      [ '__cfduid=d12d33814786891cdb0c11f03ad2c8bf71586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1136 silly get     'cf-ray': '5825aec4fc82ed57-SJC',
+1136 silly get     age: '6822',
+1136 silly get     'cache-control': 'public, max-age=300',
+1136 silly get     etag: '"2a11ded91efc0668ac15bba903f8b747"',
+1136 silly get     'last-modified': 'Mon, 04 Nov 2019 01:07:50 GMT',
+1136 silly get     vary: 'Accept-Encoding',
+1136 silly get     'cf-cache-status': 'HIT',
+1136 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1136 silly get     server: 'cloudflare' } ]
+1137 verbose etag https://registry.npmjs.org/request-promise-native from cache
+1138 verbose get saving request-promise-native to /home/userstar713/.npm/registry.npmjs.org/request-promise-native/.cache.json
+1139 silly resolveWithNewModule request-promise-native@1.0.5 checking installable status
+1140 silly cache add args [ 'request-promise-native@1.0.5', null ]
+1141 verbose cache add spec request-promise-native@1.0.5
+1142 silly cache add parsed spec Result {
+1142 silly cache add   raw: 'request-promise-native@1.0.5',
+1142 silly cache add   scope: null,
+1142 silly cache add   name: 'request-promise-native',
+1142 silly cache add   rawSpec: '1.0.5',
+1142 silly cache add   spec: '1.0.5',
+1142 silly cache add   type: 'version' }
+1143 silly addNamed request-promise-native@1.0.5
+1144 verbose addNamed "1.0.5" is a plain semver version for request-promise-native
+1145 silly mapToRegistry name request-promise-native
+1146 silly mapToRegistry using default registry
+1147 silly mapToRegistry registry https://registry.npmjs.org/
+1148 silly mapToRegistry uri https://registry.npmjs.org/request-promise-native
+1149 verbose addNameVersion registry:https://registry.npmjs.org/request-promise-native not in flight; fetching
+1150 verbose get https://registry.npmjs.org/request-promise-native not expired, no request
+1151 silly cache afterAdd request-promise-native@1.0.5
+1152 verbose afterAdd /home/userstar713/.npm/request-promise-native/1.0.5/package/package.json not in flight; writing
+1153 verbose afterAdd /home/userstar713/.npm/request-promise-native/1.0.5/package/package.json written
+1154 http 200 https://registry.npmjs.org/pg
+1155 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+1155 verbose headers   'content-type': 'application/json',
+1155 verbose headers   'transfer-encoding': 'chunked',
+1155 verbose headers   connection: 'keep-alive',
+1155 verbose headers   'set-cookie':
+1155 verbose headers    [ '__cfduid=d3eece41801648adc8da1b1d5bd7a895a1586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1155 verbose headers   'cf-ray': '5825aec339f5ed6f-SJC',
+1155 verbose headers   age: '3500',
+1155 verbose headers   'cache-control': 'public, max-age=300',
+1155 verbose headers   etag: 'W/"d14f22649da32d5d6488920a64487449"',
+1155 verbose headers   'last-modified': 'Thu, 09 Apr 2020 20:18:45 GMT',
+1155 verbose headers   vary: 'accept-encoding, accept',
+1155 verbose headers   'cf-cache-status': 'HIT',
+1155 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1155 verbose headers   server: 'cloudflare',
+1155 verbose headers   'content-encoding': 'gzip' }
+1156 silly get cb [ 200,
+1156 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+1156 silly get     'content-type': 'application/json',
+1156 silly get     'transfer-encoding': 'chunked',
+1156 silly get     connection: 'keep-alive',
+1156 silly get     'set-cookie':
+1156 silly get      [ '__cfduid=d3eece41801648adc8da1b1d5bd7a895a1586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1156 silly get     'cf-ray': '5825aec339f5ed6f-SJC',
+1156 silly get     age: '3500',
+1156 silly get     'cache-control': 'public, max-age=300',
+1156 silly get     etag: 'W/"d14f22649da32d5d6488920a64487449"',
+1156 silly get     'last-modified': 'Thu, 09 Apr 2020 20:18:45 GMT',
+1156 silly get     vary: 'accept-encoding, accept',
+1156 silly get     'cf-cache-status': 'HIT',
+1156 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1156 silly get     server: 'cloudflare',
+1156 silly get     'content-encoding': 'gzip' } ]
+1157 verbose get saving pg to /home/userstar713/.npm/registry.npmjs.org/pg/.cache.json
+1158 silly resolveWithNewModule pg@7.10.0 checking installable status
+1159 silly cache add args [ 'pg@7.10.0', null ]
+1160 verbose cache add spec pg@7.10.0
+1161 silly cache add parsed spec Result {
+1161 silly cache add   raw: 'pg@7.10.0',
+1161 silly cache add   scope: null,
+1161 silly cache add   name: 'pg',
+1161 silly cache add   rawSpec: '7.10.0',
+1161 silly cache add   spec: '7.10.0',
+1161 silly cache add   type: 'version' }
+1162 silly addNamed pg@7.10.0
+1163 verbose addNamed "7.10.0" is a plain semver version for pg
+1164 silly mapToRegistry name pg
+1165 silly mapToRegistry using default registry
+1166 silly mapToRegistry registry https://registry.npmjs.org/
+1167 silly mapToRegistry uri https://registry.npmjs.org/pg
+1168 verbose addNameVersion registry:https://registry.npmjs.org/pg not in flight; fetching
+1169 verbose get https://registry.npmjs.org/pg not expired, no request
+1170 silly addBundled read tarball
+1171 silly cache afterAdd pg@7.10.0
+1172 verbose afterAdd /home/userstar713/.npm/pg/7.10.0/package/package.json not in flight; writing
+1173 verbose afterAdd /home/userstar713/.npm/pg/7.10.0/package/package.json written
+1174 http 200 https://registry.npmjs.org/proj4
+1175 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+1175 verbose headers   'content-type': 'application/json',
+1175 verbose headers   'transfer-encoding': 'chunked',
+1175 verbose headers   connection: 'keep-alive',
+1175 verbose headers   'set-cookie':
+1175 verbose headers    [ '__cfduid=d177edc9863c0d443823be6db614d74bb1586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1175 verbose headers   'cf-ray': '5825aec33cee935e-SJC',
+1175 verbose headers   'cache-control': 'public, max-age=300',
+1175 verbose headers   etag: 'W/"e0d796c2a94328a2952fa32b4d8058f7"',
+1175 verbose headers   'last-modified': 'Thu, 02 Apr 2020 09:18:04 GMT',
+1175 verbose headers   vary: 'accept-encoding, accept',
+1175 verbose headers   'cf-cache-status': 'REVALIDATED',
+1175 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1175 verbose headers   server: 'cloudflare',
+1175 verbose headers   'content-encoding': 'gzip' }
+1176 silly get cb [ 200,
+1176 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+1176 silly get     'content-type': 'application/json',
+1176 silly get     'transfer-encoding': 'chunked',
+1176 silly get     connection: 'keep-alive',
+1176 silly get     'set-cookie':
+1176 silly get      [ '__cfduid=d177edc9863c0d443823be6db614d74bb1586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1176 silly get     'cf-ray': '5825aec33cee935e-SJC',
+1176 silly get     'cache-control': 'public, max-age=300',
+1176 silly get     etag: 'W/"e0d796c2a94328a2952fa32b4d8058f7"',
+1176 silly get     'last-modified': 'Thu, 02 Apr 2020 09:18:04 GMT',
+1176 silly get     vary: 'accept-encoding, accept',
+1176 silly get     'cf-cache-status': 'REVALIDATED',
+1176 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1176 silly get     server: 'cloudflare',
+1176 silly get     'content-encoding': 'gzip' } ]
+1177 verbose get saving proj4 to /home/userstar713/.npm/registry.npmjs.org/proj4/.cache.json
+1178 silly resolveWithNewModule proj4@2.5.0 checking installable status
+1179 silly cache add args [ 'proj4@2.5.0', null ]
+1180 verbose cache add spec proj4@2.5.0
+1181 silly cache add parsed spec Result {
+1181 silly cache add   raw: 'proj4@2.5.0',
+1181 silly cache add   scope: null,
+1181 silly cache add   name: 'proj4',
+1181 silly cache add   rawSpec: '2.5.0',
+1181 silly cache add   spec: '2.5.0',
+1181 silly cache add   type: 'version' }
+1182 silly addNamed proj4@2.5.0
+1183 verbose addNamed "2.5.0" is a plain semver version for proj4
+1184 silly mapToRegistry name proj4
+1185 silly mapToRegistry using default registry
+1186 silly mapToRegistry registry https://registry.npmjs.org/
+1187 silly mapToRegistry uri https://registry.npmjs.org/proj4
+1188 verbose addNameVersion registry:https://registry.npmjs.org/proj4 not in flight; fetching
+1189 verbose get https://registry.npmjs.org/proj4 not expired, no request
+1190 silly cleanup remove extracted module
+1191 silly cache afterAdd proj4@2.5.0
+1192 verbose afterAdd /home/userstar713/.npm/proj4/2.5.0/package/package.json not in flight; writing
+1193 verbose afterAdd /home/userstar713/.npm/proj4/2.5.0/package/package.json written
+1194 http 200 https://registry.npmjs.org/apollo-server-express
+1195 verbose headers { date: 'Sat, 11 Apr 2020 15:18:51 GMT',
+1195 verbose headers   'content-type': 'application/json',
+1195 verbose headers   'transfer-encoding': 'chunked',
+1195 verbose headers   connection: 'keep-alive',
+1195 verbose headers   'set-cookie':
+1195 verbose headers    [ '__cfduid=d867993623ab0f7a75c03568ff49654521586618331; expires=Mon, 11-May-20 15:18:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1195 verbose headers   'cf-ray': '5825aebd2c85ed23-SJC',
+1195 verbose headers   age: '3901',
+1195 verbose headers   'cache-control': 'public, max-age=300',
+1195 verbose headers   etag: 'W/"aaa49f1a34bd2cdd23b4013a00263f33"',
+1195 verbose headers   'last-modified': 'Fri, 10 Apr 2020 12:15:03 GMT',
+1195 verbose headers   vary: 'accept-encoding, accept',
+1195 verbose headers   'cf-cache-status': 'HIT',
+1195 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1195 verbose headers   server: 'cloudflare',
+1195 verbose headers   'content-encoding': 'gzip' }
+1196 silly get cb [ 200,
+1196 silly get   { date: 'Sat, 11 Apr 2020 15:18:51 GMT',
+1196 silly get     'content-type': 'application/json',
+1196 silly get     'transfer-encoding': 'chunked',
+1196 silly get     connection: 'keep-alive',
+1196 silly get     'set-cookie':
+1196 silly get      [ '__cfduid=d867993623ab0f7a75c03568ff49654521586618331; expires=Mon, 11-May-20 15:18:51 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1196 silly get     'cf-ray': '5825aebd2c85ed23-SJC',
+1196 silly get     age: '3901',
+1196 silly get     'cache-control': 'public, max-age=300',
+1196 silly get     etag: 'W/"aaa49f1a34bd2cdd23b4013a00263f33"',
+1196 silly get     'last-modified': 'Fri, 10 Apr 2020 12:15:03 GMT',
+1196 silly get     vary: 'accept-encoding, accept',
+1196 silly get     'cf-cache-status': 'HIT',
+1196 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1196 silly get     server: 'cloudflare',
+1196 silly get     'content-encoding': 'gzip' } ]
+1197 verbose get saving apollo-server-express to /home/userstar713/.npm/registry.npmjs.org/apollo-server-express/.cache.json
+1198 http 304 https://registry.npmjs.org/lodash
+1199 verbose headers { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1199 verbose headers   connection: 'keep-alive',
+1199 verbose headers   'set-cookie':
+1199 verbose headers    [ '__cfduid=d865ccdfd8c406469842185a5983c141d1586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1199 verbose headers   'cf-ray': '5825aec6cb38ed27-SJC',
+1199 verbose headers   age: '4268',
+1199 verbose headers   'cache-control': 'public, max-age=300',
+1199 verbose headers   etag: '"d90cfe8c201fe1cfa3e6cefe3a2f5d0b"',
+1199 verbose headers   'last-modified': 'Mon, 02 Mar 2020 17:00:03 GMT',
+1199 verbose headers   vary: 'Accept-Encoding',
+1199 verbose headers   'cf-cache-status': 'HIT',
+1199 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1199 verbose headers   server: 'cloudflare' }
+1200 silly get cb [ 304,
+1200 silly get   { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1200 silly get     connection: 'keep-alive',
+1200 silly get     'set-cookie':
+1200 silly get      [ '__cfduid=d865ccdfd8c406469842185a5983c141d1586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1200 silly get     'cf-ray': '5825aec6cb38ed27-SJC',
+1200 silly get     age: '4268',
+1200 silly get     'cache-control': 'public, max-age=300',
+1200 silly get     etag: '"d90cfe8c201fe1cfa3e6cefe3a2f5d0b"',
+1200 silly get     'last-modified': 'Mon, 02 Mar 2020 17:00:03 GMT',
+1200 silly get     vary: 'Accept-Encoding',
+1200 silly get     'cf-cache-status': 'HIT',
+1200 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1200 silly get     server: 'cloudflare' } ]
+1201 verbose etag https://registry.npmjs.org/lodash from cache
+1202 verbose get saving lodash to /home/userstar713/.npm/registry.npmjs.org/lodash/.cache.json
+1203 silly resolveWithNewModule lodash@4.17.11 checking installable status
+1204 silly cache add args [ 'lodash@4.17.11', null ]
+1205 verbose cache add spec lodash@4.17.11
+1206 silly cache add parsed spec Result {
+1206 silly cache add   raw: 'lodash@4.17.11',
+1206 silly cache add   scope: null,
+1206 silly cache add   name: 'lodash',
+1206 silly cache add   rawSpec: '4.17.11',
+1206 silly cache add   spec: '4.17.11',
+1206 silly cache add   type: 'version' }
+1207 silly addNamed lodash@4.17.11
+1208 verbose addNamed "4.17.11" is a plain semver version for lodash
+1209 silly mapToRegistry name lodash
+1210 silly mapToRegistry using default registry
+1211 silly mapToRegistry registry https://registry.npmjs.org/
+1212 silly mapToRegistry uri https://registry.npmjs.org/lodash
+1213 verbose addNameVersion registry:https://registry.npmjs.org/lodash not in flight; fetching
+1214 verbose get https://registry.npmjs.org/lodash not expired, no request
+1215 silly resolveWithNewModule apollo-server-express@2.0.5 checking installable status
+1216 silly cache add args [ 'apollo-server-express@2.0.5', null ]
+1217 verbose cache add spec apollo-server-express@2.0.5
+1218 silly cache add parsed spec Result {
+1218 silly cache add   raw: 'apollo-server-express@2.0.5',
+1218 silly cache add   scope: null,
+1218 silly cache add   name: 'apollo-server-express',
+1218 silly cache add   rawSpec: '2.0.5',
+1218 silly cache add   spec: '2.0.5',
+1218 silly cache add   type: 'version' }
+1219 silly addNamed apollo-server-express@2.0.5
+1220 verbose addNamed "2.0.5" is a plain semver version for apollo-server-express
+1221 silly mapToRegistry name apollo-server-express
+1222 silly mapToRegistry using default registry
+1223 silly mapToRegistry registry https://registry.npmjs.org/
+1224 silly mapToRegistry uri https://registry.npmjs.org/apollo-server-express
+1225 verbose addNameVersion registry:https://registry.npmjs.org/apollo-server-express not in flight; fetching
+1226 http 304 https://registry.npmjs.org/sequelize-cli
+1227 verbose headers { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1227 verbose headers   connection: 'keep-alive',
+1227 verbose headers   'set-cookie':
+1227 verbose headers    [ '__cfduid=dd8884591b547f823cef1897c4d6745701586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1227 verbose headers   'cf-ray': '5825aec6eb9fed8b-SJC',
+1227 verbose headers   age: '2462',
+1227 verbose headers   'cache-control': 'public, max-age=300',
+1227 verbose headers   etag: '"148eae445b35ab29347a79ced533d36e"',
+1227 verbose headers   'last-modified': 'Sat, 31 Aug 2019 11:44:30 GMT',
+1227 verbose headers   vary: 'Accept-Encoding',
+1227 verbose headers   'cf-cache-status': 'HIT',
+1227 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1227 verbose headers   server: 'cloudflare' }
+1228 silly get cb [ 304,
+1228 silly get   { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1228 silly get     connection: 'keep-alive',
+1228 silly get     'set-cookie':
+1228 silly get      [ '__cfduid=dd8884591b547f823cef1897c4d6745701586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1228 silly get     'cf-ray': '5825aec6eb9fed8b-SJC',
+1228 silly get     age: '2462',
+1228 silly get     'cache-control': 'public, max-age=300',
+1228 silly get     etag: '"148eae445b35ab29347a79ced533d36e"',
+1228 silly get     'last-modified': 'Sat, 31 Aug 2019 11:44:30 GMT',
+1228 silly get     vary: 'Accept-Encoding',
+1228 silly get     'cf-cache-status': 'HIT',
+1228 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1228 silly get     server: 'cloudflare' } ]
+1229 verbose etag https://registry.npmjs.org/sequelize-cli from cache
+1230 verbose get saving sequelize-cli to /home/userstar713/.npm/registry.npmjs.org/sequelize-cli/.cache.json
+1231 silly cache afterAdd lodash@4.17.11
+1232 verbose afterAdd /home/userstar713/.npm/lodash/4.17.11/package/package.json not in flight; writing
+1233 verbose get https://registry.npmjs.org/apollo-server-express not expired, no request
+1234 verbose afterAdd /home/userstar713/.npm/lodash/4.17.11/package/package.json written
+1235 silly resolveWithNewModule sequelize-cli@5.4.0 checking installable status
+1236 silly cache add args [ 'sequelize-cli@5.4.0', null ]
+1237 verbose cache add spec sequelize-cli@5.4.0
+1238 silly cache add parsed spec Result {
+1238 silly cache add   raw: 'sequelize-cli@5.4.0',
+1238 silly cache add   scope: null,
+1238 silly cache add   name: 'sequelize-cli',
+1238 silly cache add   rawSpec: '5.4.0',
+1238 silly cache add   spec: '5.4.0',
+1238 silly cache add   type: 'version' }
+1239 silly addNamed sequelize-cli@5.4.0
+1240 verbose addNamed "5.4.0" is a plain semver version for sequelize-cli
+1241 silly mapToRegistry name sequelize-cli
+1242 silly mapToRegistry using default registry
+1243 silly mapToRegistry registry https://registry.npmjs.org/
+1244 silly mapToRegistry uri https://registry.npmjs.org/sequelize-cli
+1245 verbose addNameVersion registry:https://registry.npmjs.org/sequelize-cli not in flight; fetching
+1246 verbose get https://registry.npmjs.org/sequelize-cli not expired, no request
+1247 silly cache afterAdd apollo-server-express@2.0.5
+1248 verbose afterAdd /home/userstar713/.npm/apollo-server-express/2.0.5/package/package.json not in flight; writing
+1249 verbose afterAdd /home/userstar713/.npm/apollo-server-express/2.0.5/package/package.json written
+1250 silly cache afterAdd sequelize-cli@5.4.0
+1251 verbose afterAdd /home/userstar713/.npm/sequelize-cli/5.4.0/package/package.json not in flight; writing
+1252 verbose afterAdd /home/userstar713/.npm/sequelize-cli/5.4.0/package/package.json written
+1253 http 304 https://registry.npmjs.org/graphql-fields
+1254 verbose headers { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1254 verbose headers   connection: 'keep-alive',
+1254 verbose headers   'set-cookie':
+1254 verbose headers    [ '__cfduid=d3d0cb91e927bbabd67e0160fa95568ac1586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1254 verbose headers   'cf-ray': '5825aec74f7c92a4-SJC',
+1254 verbose headers   age: '2598',
+1254 verbose headers   'cache-control': 'public, max-age=300',
+1254 verbose headers   etag: '"6db2e5a1ed915c316bef14ed415415d5"',
+1254 verbose headers   'last-modified': 'Tue, 05 Mar 2019 01:35:07 GMT',
+1254 verbose headers   vary: 'Accept-Encoding',
+1254 verbose headers   'cf-cache-status': 'HIT',
+1254 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1254 verbose headers   server: 'cloudflare' }
+1255 silly get cb [ 304,
+1255 silly get   { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1255 silly get     connection: 'keep-alive',
+1255 silly get     'set-cookie':
+1255 silly get      [ '__cfduid=d3d0cb91e927bbabd67e0160fa95568ac1586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1255 silly get     'cf-ray': '5825aec74f7c92a4-SJC',
+1255 silly get     age: '2598',
+1255 silly get     'cache-control': 'public, max-age=300',
+1255 silly get     etag: '"6db2e5a1ed915c316bef14ed415415d5"',
+1255 silly get     'last-modified': 'Tue, 05 Mar 2019 01:35:07 GMT',
+1255 silly get     vary: 'Accept-Encoding',
+1255 silly get     'cf-cache-status': 'HIT',
+1255 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1255 silly get     server: 'cloudflare' } ]
+1256 verbose etag https://registry.npmjs.org/graphql-fields from cache
+1257 verbose get saving graphql-fields to /home/userstar713/.npm/registry.npmjs.org/graphql-fields/.cache.json
+1258 silly resolveWithNewModule graphql-fields@1.1.0 checking installable status
+1259 silly cache add args [ 'graphql-fields@1.1.0', null ]
+1260 verbose cache add spec graphql-fields@1.1.0
+1261 silly cache add parsed spec Result {
+1261 silly cache add   raw: 'graphql-fields@1.1.0',
+1261 silly cache add   scope: null,
+1261 silly cache add   name: 'graphql-fields',
+1261 silly cache add   rawSpec: '1.1.0',
+1261 silly cache add   spec: '1.1.0',
+1261 silly cache add   type: 'version' }
+1262 silly addNamed graphql-fields@1.1.0
+1263 verbose addNamed "1.1.0" is a plain semver version for graphql-fields
+1264 silly mapToRegistry name graphql-fields
+1265 silly mapToRegistry using default registry
+1266 silly mapToRegistry registry https://registry.npmjs.org/
+1267 silly mapToRegistry uri https://registry.npmjs.org/graphql-fields
+1268 verbose addNameVersion registry:https://registry.npmjs.org/graphql-fields not in flight; fetching
+1269 verbose get https://registry.npmjs.org/graphql-fields not expired, no request
+1270 silly cache afterAdd graphql-fields@1.1.0
+1271 verbose afterAdd /home/userstar713/.npm/graphql-fields/1.1.0/package/package.json not in flight; writing
+1272 verbose afterAdd /home/userstar713/.npm/graphql-fields/1.1.0/package/package.json written
+1273 http 304 https://registry.npmjs.org/request
+1274 verbose headers { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1274 verbose headers   connection: 'keep-alive',
+1274 verbose headers   'set-cookie':
+1274 verbose headers    [ '__cfduid=d84ddb9eb88618861071b5782bc9e2c501586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1274 verbose headers   'cf-ray': '5825aec7fb969672-SJC',
+1274 verbose headers   age: '2723',
+1274 verbose headers   'cache-control': 'public, max-age=300',
+1274 verbose headers   etag: '"85539e7af42cc385fe7ae826760bc1db"',
+1274 verbose headers   'last-modified': 'Fri, 21 Feb 2020 20:39:13 GMT',
+1274 verbose headers   vary: 'Accept-Encoding',
+1274 verbose headers   'cf-cache-status': 'HIT',
+1274 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1274 verbose headers   server: 'cloudflare' }
+1275 silly get cb [ 304,
+1275 silly get   { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1275 silly get     connection: 'keep-alive',
+1275 silly get     'set-cookie':
+1275 silly get      [ '__cfduid=d84ddb9eb88618861071b5782bc9e2c501586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1275 silly get     'cf-ray': '5825aec7fb969672-SJC',
+1275 silly get     age: '2723',
+1275 silly get     'cache-control': 'public, max-age=300',
+1275 silly get     etag: '"85539e7af42cc385fe7ae826760bc1db"',
+1275 silly get     'last-modified': 'Fri, 21 Feb 2020 20:39:13 GMT',
+1275 silly get     vary: 'Accept-Encoding',
+1275 silly get     'cf-cache-status': 'HIT',
+1275 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1275 silly get     server: 'cloudflare' } ]
+1276 verbose etag https://registry.npmjs.org/request from cache
+1277 verbose get saving request to /home/userstar713/.npm/registry.npmjs.org/request/.cache.json
+1278 silly resolveWithNewModule request@2.88.0 checking installable status
+1279 silly cache add args [ 'request@2.88.0', null ]
+1280 verbose cache add spec request@2.88.0
+1281 silly cache add parsed spec Result {
+1281 silly cache add   raw: 'request@2.88.0',
+1281 silly cache add   scope: null,
+1281 silly cache add   name: 'request',
+1281 silly cache add   rawSpec: '2.88.0',
+1281 silly cache add   spec: '2.88.0',
+1281 silly cache add   type: 'version' }
+1282 silly addNamed request@2.88.0
+1283 verbose addNamed "2.88.0" is a plain semver version for request
+1284 silly mapToRegistry name request
+1285 silly mapToRegistry using default registry
+1286 silly mapToRegistry registry https://registry.npmjs.org/
+1287 silly mapToRegistry uri https://registry.npmjs.org/request
+1288 verbose addNameVersion registry:https://registry.npmjs.org/request not in flight; fetching
+1289 verbose get https://registry.npmjs.org/request not expired, no request
+1290 warn deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+1291 silly cache afterAdd request@2.88.0
+1292 verbose afterAdd /home/userstar713/.npm/request/2.88.0/package/package.json not in flight; writing
+1293 verbose afterAdd /home/userstar713/.npm/request/2.88.0/package/package.json written
+1294 http 200 https://registry.npmjs.org/uuid
+1295 verbose headers { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1295 verbose headers   'content-type': 'application/json',
+1295 verbose headers   'transfer-encoding': 'chunked',
+1295 verbose headers   connection: 'keep-alive',
+1295 verbose headers   'set-cookie':
+1295 verbose headers    [ '__cfduid=d8a9c2f8499468906a7bd89bfa05d7c7a1586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1295 verbose headers   'cf-ray': '5825aec8bb4b6e12-SJC',
+1295 verbose headers   age: '1246',
+1295 verbose headers   'cache-control': 'public, max-age=300',
+1295 verbose headers   etag: 'W/"f5a5627142b25dc2b0adda10bde1b74b"',
+1295 verbose headers   'last-modified': 'Tue, 31 Mar 2020 19:41:28 GMT',
+1295 verbose headers   vary: 'accept-encoding, accept',
+1295 verbose headers   'cf-cache-status': 'HIT',
+1295 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1295 verbose headers   server: 'cloudflare',
+1295 verbose headers   'content-encoding': 'gzip' }
+1296 silly get cb [ 200,
+1296 silly get   { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1296 silly get     'content-type': 'application/json',
+1296 silly get     'transfer-encoding': 'chunked',
+1296 silly get     connection: 'keep-alive',
+1296 silly get     'set-cookie':
+1296 silly get      [ '__cfduid=d8a9c2f8499468906a7bd89bfa05d7c7a1586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1296 silly get     'cf-ray': '5825aec8bb4b6e12-SJC',
+1296 silly get     age: '1246',
+1296 silly get     'cache-control': 'public, max-age=300',
+1296 silly get     etag: 'W/"f5a5627142b25dc2b0adda10bde1b74b"',
+1296 silly get     'last-modified': 'Tue, 31 Mar 2020 19:41:28 GMT',
+1296 silly get     vary: 'accept-encoding, accept',
+1296 silly get     'cf-cache-status': 'HIT',
+1296 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1296 silly get     server: 'cloudflare',
+1296 silly get     'content-encoding': 'gzip' } ]
+1297 verbose get saving uuid to /home/userstar713/.npm/registry.npmjs.org/uuid/.cache.json
+1298 silly resolveWithNewModule uuid@3.3.2 checking installable status
+1299 silly cache add args [ 'uuid@3.3.2', null ]
+1300 verbose cache add spec uuid@3.3.2
+1301 silly cache add parsed spec Result {
+1301 silly cache add   raw: 'uuid@3.3.2',
+1301 silly cache add   scope: null,
+1301 silly cache add   name: 'uuid',
+1301 silly cache add   rawSpec: '3.3.2',
+1301 silly cache add   spec: '3.3.2',
+1301 silly cache add   type: 'version' }
+1302 silly addNamed uuid@3.3.2
+1303 verbose addNamed "3.3.2" is a plain semver version for uuid
+1304 silly mapToRegistry name uuid
+1305 silly mapToRegistry using default registry
+1306 silly mapToRegistry registry https://registry.npmjs.org/
+1307 silly mapToRegistry uri https://registry.npmjs.org/uuid
+1308 verbose addNameVersion registry:https://registry.npmjs.org/uuid not in flight; fetching
+1309 verbose get https://registry.npmjs.org/uuid not expired, no request
+1310 silly cache afterAdd uuid@3.3.2
+1311 verbose afterAdd /home/userstar713/.npm/uuid/3.3.2/package/package.json not in flight; writing
+1312 verbose afterAdd /home/userstar713/.npm/uuid/3.3.2/package/package.json written
+1313 http 200 https://registry.npmjs.org/dd-trace
+1314 verbose headers { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+1314 verbose headers   'content-type': 'application/json',
+1314 verbose headers   'transfer-encoding': 'chunked',
+1314 verbose headers   connection: 'keep-alive',
+1314 verbose headers   'set-cookie':
+1314 verbose headers    [ '__cfduid=d49d48d931b7110da50850ec85ad940af1586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1314 verbose headers   'cf-ray': '5825aebefd0aed5b-SJC',
+1314 verbose headers   age: '88',
+1314 verbose headers   'cache-control': 'public, max-age=300',
+1314 verbose headers   etag: 'W/"2423980d72cd5dc7b7be3a1a9bce4218"',
+1314 verbose headers   'last-modified': 'Wed, 25 Mar 2020 20:51:22 GMT',
+1314 verbose headers   vary: 'accept-encoding, accept',
+1314 verbose headers   'cf-cache-status': 'HIT',
+1314 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1314 verbose headers   server: 'cloudflare',
+1314 verbose headers   'content-encoding': 'gzip' }
+1315 silly get cb [ 200,
+1315 silly get   { date: 'Sat, 11 Apr 2020 15:18:52 GMT',
+1315 silly get     'content-type': 'application/json',
+1315 silly get     'transfer-encoding': 'chunked',
+1315 silly get     connection: 'keep-alive',
+1315 silly get     'set-cookie':
+1315 silly get      [ '__cfduid=d49d48d931b7110da50850ec85ad940af1586618332; expires=Mon, 11-May-20 15:18:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1315 silly get     'cf-ray': '5825aebefd0aed5b-SJC',
+1315 silly get     age: '88',
+1315 silly get     'cache-control': 'public, max-age=300',
+1315 silly get     etag: 'W/"2423980d72cd5dc7b7be3a1a9bce4218"',
+1315 silly get     'last-modified': 'Wed, 25 Mar 2020 20:51:22 GMT',
+1315 silly get     vary: 'accept-encoding, accept',
+1315 silly get     'cf-cache-status': 'HIT',
+1315 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1315 silly get     server: 'cloudflare',
+1315 silly get     'content-encoding': 'gzip' } ]
+1316 verbose get saving dd-trace to /home/userstar713/.npm/registry.npmjs.org/dd-trace/.cache.json
+1317 silly resolveWithNewModule dd-trace@0.15.5 checking installable status
+1318 silly cache add args [ 'dd-trace@^0.15.3', null ]
+1319 verbose cache add spec dd-trace@^0.15.3
+1320 silly cache add parsed spec Result {
+1320 silly cache add   raw: 'dd-trace@^0.15.3',
+1320 silly cache add   scope: null,
+1320 silly cache add   name: 'dd-trace',
+1320 silly cache add   rawSpec: '^0.15.3',
+1320 silly cache add   spec: '>=0.15.3 <0.16.0',
+1320 silly cache add   type: 'range' }
+1321 silly addNamed dd-trace@>=0.15.3 <0.16.0
+1322 verbose addNamed ">=0.15.3 <0.16.0" is a valid semver range for dd-trace
+1323 silly addNameRange { name: 'dd-trace', range: '>=0.15.3 <0.16.0', hasData: false }
+1324 silly mapToRegistry name dd-trace
+1325 silly mapToRegistry using default registry
+1326 silly mapToRegistry registry https://registry.npmjs.org/
+1327 silly mapToRegistry uri https://registry.npmjs.org/dd-trace
+1328 verbose addNameRange registry:https://registry.npmjs.org/dd-trace not in flight; fetching
+1329 verbose get https://registry.npmjs.org/dd-trace not expired, no request
+1330 silly addNameRange number 2 { name: 'dd-trace', range: '>=0.15.3 <0.16.0', hasData: true }
+1331 silly addNameRange versions [ 'dd-trace',
+1331 silly addNameRange   [ '0.1.0',
+1331 silly addNameRange     '0.1.1',
+1331 silly addNameRange     '0.1.2',
+1331 silly addNameRange     '0.1.3',
+1331 silly addNameRange     '0.1.4',
+1331 silly addNameRange     '0.1.5',
+1331 silly addNameRange     '0.1.6',
+1331 silly addNameRange     '0.1.7',
+1331 silly addNameRange     '0.2.0',
+1331 silly addNameRange     '0.2.1-beta.0',
+1331 silly addNameRange     '0.2.1-beta.1',
+1331 silly addNameRange     '0.2.1-beta.2',
+1331 silly addNameRange     '0.2.1',
+1331 silly addNameRange     '0.3.0',
+1331 silly addNameRange     '0.3.1',
+1331 silly addNameRange     '0.3.2',
+1331 silly addNameRange     '0.4.0',
+1331 silly addNameRange     '0.5.0',
+1331 silly addNameRange     '0.5.1',
+1331 silly addNameRange     '0.5.2-beta.0',
+1331 silly addNameRange     '0.5.2',
+1331 silly addNameRange     '0.5.3',
+1331 silly addNameRange     '0.5.4',
+1331 silly addNameRange     '0.5.5',
+1331 silly addNameRange     '0.5.6',
+1331 silly addNameRange     '0.6.0-beta.0',
+1331 silly addNameRange     '0.6.0-beta.1',
+1331 silly addNameRange     '0.6.0-beta.2',
+1331 silly addNameRange     '0.6.0',
+1331 silly addNameRange     '0.6.1-beta.0',
+1331 silly addNameRange     '0.6.1-beta.1',
+1331 silly addNameRange     '0.6.1-beta.2',
+1331 silly addNameRange     '0.6.1-beta.3',
+1331 silly addNameRange     '0.6.1-beta.4',
+1331 silly addNameRange     '0.6.1-beta.5',
+1331 silly addNameRange     '0.7.0-beta.0',
+1331 silly addNameRange     '0.6.1',
+1331 silly addNameRange     '0.7.0-beta.1',
+1331 silly addNameRange     '0.7.0-beta.2',
+1331 silly addNameRange     '0.6.2-beta.0',
+1331 silly addNameRange     '0.7.0-beta.3',
+1331 silly addNameRange     '0.6.2',
+1331 silly addNameRange     '0.7.0-beta.4',
+1331 silly addNameRange     '0.7.0-beta.5',
+1331 silly addNameRange     '0.7.0-beta.6',
+1331 silly addNameRange     '0.7.0-beta.7',
+1331 silly addNameRange     '0.7.0',
+1331 silly addNameRange     '0.7.1',
+1331 silly addNameRange     '0.7.2',
+1331 silly addNameRange     '0.8.0-beta.0',
+1331 silly addNameRange     '0.8.0-beta.1',
+1331 silly addNameRange     '0.8.0-beta.2',
+1331 silly addNameRange     '0.8.0-beta.3',
+1331 silly addNameRange     '0.8.0-beta.4',
+1331 silly addNameRange     '0.7.3',
+1331 silly addNameRange     '0.8.0-beta.5',
+1331 silly addNameRange     '0.8.0-beta.6',
+1331 silly addNameRange     '0.8.0-beta.7',
+1331 silly addNameRange     '0.8.0-beta.8',
+1331 silly addNameRange     '0.8.0-beta.9',
+1331 silly addNameRange     '0.8.0-beta.10',
+1331 silly addNameRange     '0.8.0-beta.11',
+1331 silly addNameRange     '0.8.0-beta.12',
+1331 silly addNameRange     '0.8.0-beta.13',
+1331 silly addNameRange     '0.8.0',
+1331 silly addNameRange     '0.9.0-beta.0',
+1331 silly addNameRange     '0.9.0-beta.1',
+1331 silly addNameRange     '0.9.0-beta.2',
+1331 silly addNameRange     '0.9.0-beta.3',
+1331 silly addNameRange     '0.9.0-beta.4',
+1331 silly addNameRange     '0.9.0-beta.5',
+1331 silly addNameRange     '0.9.0-beta.6',
+1331 silly addNameRange     '0.9.0-beta.7',
+1331 silly addNameRange     '0.9.0-beta.8',
+1331 silly addNameRange     '0.9.0',
+1331 silly addNameRange     '0.9.1',
+1331 silly addNameRange     '0.9.2-beta.0',
+1331 silly addNameRange     '0.9.2',
+1331 silly addNameRange     '0.9.3',
+1331 silly addNameRange     '0.10.0-beta.0',
+1331 silly addNameRange     '0.10.0',
+1331 silly addNameRange     '0.10.1',
+1331 silly addNameRange     '0.10.2',
+1331 silly addNameRange     '0.11.0-beta.0',
+1331 silly addNameRange     '0.11.0-beta.1',
+1331 silly addNameRange     '0.11.0-beta.2',
+1331 silly addNameRange     '0.10.3',
+1331 silly addNameRange     '0.11.0-beta.3',
+1331 silly addNameRange     '0.10.4',
+1331 silly addNameRange     '0.11.0',
+1331 silly addNameRange     '0.11.1',
+1331 silly addNameRange     '0.11.2',
+1331 silly addNameRange     '0.12.0',
+1331 silly addNameRange     '0.13.0-beta.0',
+1331 silly addNameRange     '0.12.1',
+1331 silly addNameRange     '0.13.0-beta.1',
+1331 silly addNameRange     '0.13.0-beta.2',
+1331 silly addNameRange     '0.13.0-beta.3',
+1331 silly addNameRange     '0.13.0',
+1331 silly addNameRange     '0.13.1',
+1331 silly addNameRange     ... 52 more items ] ]
+1332 silly addNamed dd-trace@0.15.5
+1333 verbose addNamed "0.15.5" is a plain semver version for dd-trace
+1334 silly cache afterAdd dd-trace@0.15.5
+1335 verbose afterAdd /home/userstar713/.npm/dd-trace/0.15.5/package/package.json not in flight; writing
+1336 verbose afterAdd /home/userstar713/.npm/dd-trace/0.15.5/package/package.json written
+1337 error git clone --template=/home/userstar713/.npm/_git-remotes/_templates --mirror https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c: Cloning into bare repository '/home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c'...
+1337 error git clone --template=/home/userstar713/.npm/_git-remotes/_templates --mirror https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c: remote: The project you were looking for could not be found.
+1337 error git clone --template=/home/userstar713/.npm/_git-remotes/_templates --mirror https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c: fatal: repository 'https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git/' not found
+1338 silly fetchPackageMetaData Error: Command failed: git clone --template=/home/userstar713/.npm/_git-remotes/_templates --mirror https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c
+1338 silly fetchPackageMetaData Cloning into bare repository '/home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c'...
+1338 silly fetchPackageMetaData remote: The project you were looking for could not be found.
+1338 silly fetchPackageMetaData fatal: repository 'https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git/' not found
+1338 silly fetchPackageMetaData
+1338 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:275:12)
+1338 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+1338 silly fetchPackageMetaData     at ChildProcess.emit (events.js:214:7)
+1338 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:925:16)
+1338 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+1338 silly fetchPackageMetaData  error for lib-core@git+https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git#v1.5.7 { Error: Command failed: git clone --template=/home/userstar713/.npm/_git-remotes/_templates --mirror https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c
+1338 silly fetchPackageMetaData Cloning into bare repository '/home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c'...
+1338 silly fetchPackageMetaData remote: The project you were looking for could not be found.
+1338 silly fetchPackageMetaData fatal: repository 'https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git/' not found
+1338 silly fetchPackageMetaData
+1338 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:275:12)
+1338 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+1338 silly fetchPackageMetaData     at ChildProcess.emit (events.js:214:7)
+1338 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:925:16)
+1338 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+1338 silly fetchPackageMetaData   killed: false,
+1338 silly fetchPackageMetaData   code: 128,
+1338 silly fetchPackageMetaData   signal: null,
+1338 silly fetchPackageMetaData   cmd: 'git clone --template=/home/userstar713/.npm/_git-remotes/_templates --mirror https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c' }
+1339 http 200 https://registry.npmjs.org/mongoose
+1340 verbose headers { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1340 verbose headers   'content-type': 'application/json',
+1340 verbose headers   'transfer-encoding': 'chunked',
+1340 verbose headers   connection: 'keep-alive',
+1340 verbose headers   'set-cookie':
+1340 verbose headers    [ '__cfduid=dc174051b307ff4e70e107ba0508a58431586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1340 verbose headers   'cf-ray': '5825aec719519684-SJC',
+1340 verbose headers   age: '1693',
+1340 verbose headers   'cache-control': 'public, max-age=300',
+1340 verbose headers   etag: 'W/"50b860251b962ce7984d617ab5dabcac"',
+1340 verbose headers   'last-modified': 'Mon, 30 Mar 2020 16:16:52 GMT',
+1340 verbose headers   vary: 'accept-encoding, accept',
+1340 verbose headers   'cf-cache-status': 'HIT',
+1340 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1340 verbose headers   server: 'cloudflare',
+1340 verbose headers   'content-encoding': 'gzip' }
+1341 silly get cb [ 200,
+1341 silly get   { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1341 silly get     'content-type': 'application/json',
+1341 silly get     'transfer-encoding': 'chunked',
+1341 silly get     connection: 'keep-alive',
+1341 silly get     'set-cookie':
+1341 silly get      [ '__cfduid=dc174051b307ff4e70e107ba0508a58431586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1341 silly get     'cf-ray': '5825aec719519684-SJC',
+1341 silly get     age: '1693',
+1341 silly get     'cache-control': 'public, max-age=300',
+1341 silly get     etag: 'W/"50b860251b962ce7984d617ab5dabcac"',
+1341 silly get     'last-modified': 'Mon, 30 Mar 2020 16:16:52 GMT',
+1341 silly get     vary: 'accept-encoding, accept',
+1341 silly get     'cf-cache-status': 'HIT',
+1341 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1341 silly get     server: 'cloudflare',
+1341 silly get     'content-encoding': 'gzip' } ]
+1342 verbose get saving mongoose to /home/userstar713/.npm/registry.npmjs.org/mongoose/.cache.json
+1343 silly resolveWithNewModule mongoose@5.2.13 checking installable status
+1344 silly cache add args [ 'mongoose@5.2.13', null ]
+1345 verbose cache add spec mongoose@5.2.13
+1346 silly cache add parsed spec Result {
+1346 silly cache add   raw: 'mongoose@5.2.13',
+1346 silly cache add   scope: null,
+1346 silly cache add   name: 'mongoose',
+1346 silly cache add   rawSpec: '5.2.13',
+1346 silly cache add   spec: '5.2.13',
+1346 silly cache add   type: 'version' }
+1347 silly addNamed mongoose@5.2.13
+1348 verbose addNamed "5.2.13" is a plain semver version for mongoose
+1349 silly mapToRegistry name mongoose
+1350 silly mapToRegistry using default registry
+1351 silly mapToRegistry registry https://registry.npmjs.org/
+1352 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+1353 verbose addNameVersion registry:https://registry.npmjs.org/mongoose not in flight; fetching
+1354 verbose get https://registry.npmjs.org/mongoose not expired, no request
+1355 silly cache afterAdd mongoose@5.2.13
+1356 verbose afterAdd /home/userstar713/.npm/mongoose/5.2.13/package/package.json not in flight; writing
+1357 verbose afterAdd /home/userstar713/.npm/mongoose/5.2.13/package/package.json written
+1358 http 200 https://registry.npmjs.org/merge-graphql-schemas
+1359 verbose headers { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1359 verbose headers   'content-type': 'application/json',
+1359 verbose headers   'transfer-encoding': 'chunked',
+1359 verbose headers   connection: 'keep-alive',
+1359 verbose headers   'set-cookie':
+1359 verbose headers    [ '__cfduid=d00c3907604a9dde62cabf781a522a0fe1586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1359 verbose headers   'cf-ray': '5825aec6eac96c80-SJC',
+1359 verbose headers   age: '5750',
+1359 verbose headers   'cache-control': 'public, max-age=300',
+1359 verbose headers   etag: 'W/"72abc53bdb2990292c94e132122e3479"',
+1359 verbose headers   'last-modified': 'Fri, 10 Apr 2020 01:32:19 GMT',
+1359 verbose headers   vary: 'accept-encoding, accept',
+1359 verbose headers   'cf-cache-status': 'HIT',
+1359 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1359 verbose headers   server: 'cloudflare',
+1359 verbose headers   'content-encoding': 'gzip' }
+1360 silly get cb [ 200,
+1360 silly get   { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1360 silly get     'content-type': 'application/json',
+1360 silly get     'transfer-encoding': 'chunked',
+1360 silly get     connection: 'keep-alive',
+1360 silly get     'set-cookie':
+1360 silly get      [ '__cfduid=d00c3907604a9dde62cabf781a522a0fe1586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1360 silly get     'cf-ray': '5825aec6eac96c80-SJC',
+1360 silly get     age: '5750',
+1360 silly get     'cache-control': 'public, max-age=300',
+1360 silly get     etag: 'W/"72abc53bdb2990292c94e132122e3479"',
+1360 silly get     'last-modified': 'Fri, 10 Apr 2020 01:32:19 GMT',
+1360 silly get     vary: 'accept-encoding, accept',
+1360 silly get     'cf-cache-status': 'HIT',
+1360 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1360 silly get     server: 'cloudflare',
+1360 silly get     'content-encoding': 'gzip' } ]
+1361 verbose get saving merge-graphql-schemas to /home/userstar713/.npm/registry.npmjs.org/merge-graphql-schemas/.cache.json
+1362 http 200 https://registry.npmjs.org/sequelize
+1363 verbose headers { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1363 verbose headers   'content-type': 'application/json',
+1363 verbose headers   'transfer-encoding': 'chunked',
+1363 verbose headers   connection: 'keep-alive',
+1363 verbose headers   'set-cookie':
+1363 verbose headers    [ '__cfduid=d6c69591ed627f230210eb92a866500921586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1363 verbose headers   'cf-ray': '5825aec8bd98ed17-SJC',
+1363 verbose headers   age: '5261',
+1363 verbose headers   'cache-control': 'public, max-age=300',
+1363 verbose headers   etag: 'W/"a518deeac4e62a8286204f594ee02889"',
+1363 verbose headers   'last-modified': 'Sat, 04 Apr 2020 07:40:27 GMT',
+1363 verbose headers   vary: 'accept-encoding, accept',
+1363 verbose headers   'cf-cache-status': 'HIT',
+1363 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1363 verbose headers   server: 'cloudflare',
+1363 verbose headers   'content-encoding': 'gzip' }
+1364 silly get cb [ 200,
+1364 silly get   { date: 'Sat, 11 Apr 2020 15:18:53 GMT',
+1364 silly get     'content-type': 'application/json',
+1364 silly get     'transfer-encoding': 'chunked',
+1364 silly get     connection: 'keep-alive',
+1364 silly get     'set-cookie':
+1364 silly get      [ '__cfduid=d6c69591ed627f230210eb92a866500921586618333; expires=Mon, 11-May-20 15:18:53 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1364 silly get     'cf-ray': '5825aec8bd98ed17-SJC',
+1364 silly get     age: '5261',
+1364 silly get     'cache-control': 'public, max-age=300',
+1364 silly get     etag: 'W/"a518deeac4e62a8286204f594ee02889"',
+1364 silly get     'last-modified': 'Sat, 04 Apr 2020 07:40:27 GMT',
+1364 silly get     vary: 'accept-encoding, accept',
+1364 silly get     'cf-cache-status': 'HIT',
+1364 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1364 silly get     server: 'cloudflare',
+1364 silly get     'content-encoding': 'gzip' } ]
+1365 verbose get saving sequelize to /home/userstar713/.npm/registry.npmjs.org/sequelize/.cache.json
+1366 silly resolveWithNewModule merge-graphql-schemas@1.5.3 checking installable status
+1367 silly cache add args [ 'merge-graphql-schemas@1.5.3', null ]
+1368 verbose cache add spec merge-graphql-schemas@1.5.3
+1369 silly cache add parsed spec Result {
+1369 silly cache add   raw: 'merge-graphql-schemas@1.5.3',
+1369 silly cache add   scope: null,
+1369 silly cache add   name: 'merge-graphql-schemas',
+1369 silly cache add   rawSpec: '1.5.3',
+1369 silly cache add   spec: '1.5.3',
+1369 silly cache add   type: 'version' }
+1370 silly addNamed merge-graphql-schemas@1.5.3
+1371 verbose addNamed "1.5.3" is a plain semver version for merge-graphql-schemas
+1372 silly mapToRegistry name merge-graphql-schemas
+1373 silly mapToRegistry using default registry
+1374 silly mapToRegistry registry https://registry.npmjs.org/
+1375 silly mapToRegistry uri https://registry.npmjs.org/merge-graphql-schemas
+1376 verbose addNameVersion registry:https://registry.npmjs.org/merge-graphql-schemas not in flight; fetching
+1377 verbose get https://registry.npmjs.org/merge-graphql-schemas not expired, no request
+1378 silly cache afterAdd merge-graphql-schemas@1.5.3
+1379 verbose afterAdd /home/userstar713/.npm/merge-graphql-schemas/1.5.3/package/package.json not in flight; writing
+1380 verbose afterAdd /home/userstar713/.npm/merge-graphql-schemas/1.5.3/package/package.json written
+1381 silly resolveWithNewModule sequelize@5.8.2 checking installable status
+1382 silly cache add args [ 'sequelize@5.8.2', null ]
+1383 verbose cache add spec sequelize@5.8.2
+1384 silly cache add parsed spec Result {
+1384 silly cache add   raw: 'sequelize@5.8.2',
+1384 silly cache add   scope: null,
+1384 silly cache add   name: 'sequelize',
+1384 silly cache add   rawSpec: '5.8.2',
+1384 silly cache add   spec: '5.8.2',
+1384 silly cache add   type: 'version' }
+1385 silly addNamed sequelize@5.8.2
+1386 verbose addNamed "5.8.2" is a plain semver version for sequelize
+1387 silly mapToRegistry name sequelize
+1388 silly mapToRegistry using default registry
+1389 silly mapToRegistry registry https://registry.npmjs.org/
+1390 silly mapToRegistry uri https://registry.npmjs.org/sequelize
+1391 verbose addNameVersion registry:https://registry.npmjs.org/sequelize not in flight; fetching
+1392 verbose get https://registry.npmjs.org/sequelize not expired, no request
+1393 silly cache afterAdd sequelize@5.8.2
+1394 verbose afterAdd /home/userstar713/.npm/sequelize/5.8.2/package/package.json not in flight; writing
+1395 verbose afterAdd /home/userstar713/.npm/sequelize/5.8.2/package/package.json written
+1396 http 200 https://registry.npmjs.org/express
+1397 verbose headers { date: 'Sat, 11 Apr 2020 15:18:57 GMT',
+1397 verbose headers   'content-type': 'application/json',
+1397 verbose headers   'transfer-encoding': 'chunked',
+1397 verbose headers   connection: 'keep-alive',
+1397 verbose headers   'set-cookie':
+1397 verbose headers    [ '__cfduid=de04b8e6a3bcb3056c44e8f00a687711a1586618337; expires=Mon, 11-May-20 15:18:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1397 verbose headers   'cf-ray': '5825aee239d2ed9b-SJC',
+1397 verbose headers   age: '88',
+1397 verbose headers   'cache-control': 'public, max-age=300',
+1397 verbose headers   etag: 'W/"4bd8902c2f4ab84e46a7a42e62769a2f"',
+1397 verbose headers   'last-modified': 'Thu, 26 Mar 2020 00:57:07 GMT',
+1397 verbose headers   vary: 'accept-encoding, accept',
+1397 verbose headers   'cf-cache-status': 'HIT',
+1397 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1397 verbose headers   server: 'cloudflare',
+1397 verbose headers   'content-encoding': 'gzip' }
+1398 silly get cb [ 200,
+1398 silly get   { date: 'Sat, 11 Apr 2020 15:18:57 GMT',
+1398 silly get     'content-type': 'application/json',
+1398 silly get     'transfer-encoding': 'chunked',
+1398 silly get     connection: 'keep-alive',
+1398 silly get     'set-cookie':
+1398 silly get      [ '__cfduid=de04b8e6a3bcb3056c44e8f00a687711a1586618337; expires=Mon, 11-May-20 15:18:57 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+1398 silly get     'cf-ray': '5825aee239d2ed9b-SJC',
+1398 silly get     age: '88',
+1398 silly get     'cache-control': 'public, max-age=300',
+1398 silly get     etag: 'W/"4bd8902c2f4ab84e46a7a42e62769a2f"',
+1398 silly get     'last-modified': 'Thu, 26 Mar 2020 00:57:07 GMT',
+1398 silly get     vary: 'accept-encoding, accept',
+1398 silly get     'cf-cache-status': 'HIT',
+1398 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+1398 silly get     server: 'cloudflare',
+1398 silly get     'content-encoding': 'gzip' } ]
+1399 verbose get saving express to /home/userstar713/.npm/registry.npmjs.org/express/.cache.json
+1400 silly resolveWithNewModule express@4.16.3 checking installable status
+1401 silly cache add args [ 'express@4.16.3', null ]
+1402 verbose cache add spec express@4.16.3
+1403 silly cache add parsed spec Result {
+1403 silly cache add   raw: 'express@4.16.3',
+1403 silly cache add   scope: null,
+1403 silly cache add   name: 'express',
+1403 silly cache add   rawSpec: '4.16.3',
+1403 silly cache add   spec: '4.16.3',
+1403 silly cache add   type: 'version' }
+1404 silly addNamed express@4.16.3
+1405 verbose addNamed "4.16.3" is a plain semver version for express
+1406 silly mapToRegistry name express
+1407 silly mapToRegistry using default registry
+1408 silly mapToRegistry registry https://registry.npmjs.org/
+1409 silly mapToRegistry uri https://registry.npmjs.org/express
+1410 verbose addNameVersion registry:https://registry.npmjs.org/express not in flight; fetching
+1411 verbose get https://registry.npmjs.org/express not expired, no request
+1412 silly cache afterAdd express@4.16.3
+1413 verbose afterAdd /home/userstar713/.npm/express/4.16.3/package/package.json not in flight; writing
+1414 verbose afterAdd /home/userstar713/.npm/express/4.16.3/package/package.json written
+1415 silly rollbackFailedOptional Starting
+1416 silly rollbackFailedOptional Finishing
+1417 silly runTopLevelLifecycles Starting
+1418 silly runTopLevelLifecycles Finishing
+1419 silly install printInstalled
+1420 verbose stack Error: Command failed: git clone --template=/home/userstar713/.npm/_git-remotes/_templates --mirror https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c
+1420 verbose stack Cloning into bare repository '/home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c'...
+1420 verbose stack remote: The project you were looking for could not be found.
+1420 verbose stack fatal: repository 'https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git/' not found
+1420 verbose stack
+1420 verbose stack     at ChildProcess.exithandler (child_process.js:275:12)
+1420 verbose stack     at emitTwo (events.js:126:13)
+1420 verbose stack     at ChildProcess.emit (events.js:214:7)
+1420 verbose stack     at maybeClose (internal/child_process.js:925:16)
+1420 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+1421 verbose cwd /home/userstar713/workspace/work/NodeRestAPI
+1422 error Linux 4.15.0-96-generic
+1423 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+1424 error node v8.10.0
+1425 error npm  v3.5.2
+1426 error code 128
+1427 error Command failed: git clone --template=/home/userstar713/.npm/_git-remotes/_templates --mirror https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git /home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c
+1427 error Cloning into bare repository '/home/userstar713/.npm/_git-remotes/git-https-hamzakamera-Ys-rJxU4sr4yQUvRjyo3-gitlab-com-TopKamera-lib-core-git-v1-5-7-f6abfb1c'...
+1427 error remote: The project you were looking for could not be found.
+1427 error fatal: repository 'https://hamzakamera:Ys-rJxU4sr4yQUvRjyo3@gitlab.com/TopKamera/lib-core.git/' not found
+1428 error If you need help, you may report this error at:
+1428 error     <https://github.com/npm/npm/issues>
+1429 verbose exit [ 1, true ]

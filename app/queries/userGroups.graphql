@@ -1,0 +1,9 @@
+userGroups(
+  id: [String]
+  name: String
+  class: UserGroupClass
+  type: UserGroupType
+  limit: Int = 25
+  offset: Int = 0
+  sort: [Sort]
+): UserGroupList
