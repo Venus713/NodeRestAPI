@@ -57,7 +57,7 @@
     "lodash": "4.17.11",
     "mandrill-api": "1.0.45",
     "merge-graphql-schemas": "1.5.3",
-    "mongoose": "5.2.13",
+    "mongoose": "5.9.7",
     "nodemailer": "4.7.0",
     "nodemailer-mandrill-transport": "1.2.0",
     "pg": "7.10.0",
