@@ -42,7 +42,7 @@
   "homepage": "https://gitlab.com/TopKamera/svc-auth",
   "dependencies": {
     "@hapi/joi": "15.0.3",
-    "apollo-server-express": "2.0.5",
+    "apollo-server-express": "2.14.2",
     "bcrypt": "3.0.2",
     "cors": "2.8.5",
     "dd-trace": "^0.15.3",
